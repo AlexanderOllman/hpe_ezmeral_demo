@@ -1,0 +1,21 @@
+
+import json
+import threading
+from random import randint
+from confluent_kafka import Producer, Consumer, KafkaError
+from mapr.ojai.storage.ConnectionFactory import ConnectionFactory
+
+ files = filter(os.path.isfile, glob.glob(IMAGE_FOLDER + "*"))
+    files.sort(key=lambda x: os.path.getmtime(x))
+
+    print("done")
+
+    while generate_video:
+        for filename in files:
+            print(filename)
+            index = int(filename.split('/')[-1].split('.')[0].split('-')[1])
+            producer.produce(DRONE_ID + "_raw", json.dumps({"drone_id":DRONE_ID,
+                                                          "index":index,
+                                                          "image":IMAGE_FOLDER + "frame-{}.jpg".format(index)}))
+
+

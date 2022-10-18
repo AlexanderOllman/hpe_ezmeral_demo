@@ -1,0 +1,4 @@
+2022-09-26 18:44:42 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-36.jpg exists
+2022-09-26 18:44:42 :: INFO :: Waiting for previous frame to complete - Current offset : 3, Last committed offset : 0
+2022-09-26 18:44:42 :: INFO :: Wait time : 0.03373527526855469
+2022-09-26 18:44:42 :: INFO :: Elapsed : 1 s, processed 0 fps, [36]

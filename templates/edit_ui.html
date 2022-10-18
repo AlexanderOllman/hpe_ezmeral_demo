@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Eye In The Sky</title>
+  <link rel="stylesheet" href="{{url_for('static', filename='jquery-ui.css')}}">
+  <link rel="stylesheet" href="{{url_for('static', filename='bootstrap.min.css')}}">
+  <link rel="stylesheet" href="{{url_for('static', filename='teits.css')}}">
+</head>
+<body> 
+  <div id="main">
+    <div class="row h-100">
+      <div class="col-5 col-sm-5 col-md-7 col-lg-7 drop h-100" id="main_map">
+        {% for zone in zones %}
+          <div class="edit-border-visible drag zone"
+               id="{{zone._id}}" 
+               style="position: absolute; height:{{zone.height}}%;width: {{zone.width}}%; top:{{zone.top}}%;left:{{zone.left}}%">
+          </div>
+        {% endfor %}
+      </div>
+      <div class="col-7 col-sm-7 col-md-5 col-lg-5 align-middle">
+<!--         <div class="row">
+          <h4>Background image</h4>
+          <form method=post enctype=multipart/form-data>
+            <input class="btn btn-sm" type=file name=file>
+            <input class="btn btn-sm" type=submit value=Upload>
+          </form>
+        </div> -->
+        <hr>
+        <div class="row">
+          <div class="col-6"><h4>Edit drop zone</h4></div>
+          <div class="col-3"><button id="zone_save">Save It</button></div>
+          <div class="col-3"><button id="zone_delete">Delete</button></div>
+        </div>
+        <div class="row">
+          <div class="col-3">Name</div>
+          <div class="col-9"><input type="text" id="zone_name" onkeypress="return AvoidSpace(event)"></div>
+          </div>
+        <div class="row zone_settings">
+          <div class="col-3">Height %</div>
+          <div class="col-3"><input type="text" id="zone_height" onkeypress="return NumbersOnly(event)"></div>
+          <div class="col-3">Width %</div>
+          <div class="col-3"><input type="text" id="zone_width" onkeypress="return NumbersOnly(event)"></div>
+        </div>
+        <div class="row zone_settings">
+          <div class="col-3">Top %</div>
+          <div class="col-3"><input type="text" id="zone_top" onkeypress="return NumbersOnly(event)"></div>
+          <div class="col-3">Left %</div>
+          <div class="col-3"><input type="text" id="zone_left" onkeypress="return NumbersOnly(event)"></div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-5"><h4>Zone positioning</h4></div>
+          <div class="col-7 edit_instructions">
+            x and y (in meters) are positionning each zone using cartesian coordinates <br>
+            (x to the right, y to the front). At start time, drones are oriented to the front. <br> 
+          </div>
+        </div>
+        <div class="row zone_settings">
+          <div class="col-3">X m</div>
+          <div class="col-3"><input type="text" id="zone_x" onkeypress="return NumbersOnly(event)"></div>
+          <div class="col-3">Y m</div>
+          <div class="col-3"><input type="text" id="zone_y" onkeypress="return NumbersOnly(event)"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+  <script type="text/javascript" src="{{url_for('static', filename='jquery-1.12.4.js')}}"></script>
+  <script type="text/javascript" src="{{url_for('static', filename='jquery-ui.js')}}"></script>
+  <script type="text/javascript" src="{{url_for('static', filename='popper.min.js')}}"></script>
+  <script type="text/javascript" src="{{url_for('static', filename='bootstrap.min.js')}}"></script>
+  <script type="text/javascript" src="{{url_for('static', filename='highcharts.js')}}"></script>
+  <script type="text/javascript" src="{{url_for('static', filename='exporting.js')}}"></script>
+  <script type="text/javascript" src="{{url_for('static', filename='teits_edit.js')}}"></script>
+</html>

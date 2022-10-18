@@ -1,0 +1,305 @@
+@font-face {
+  font-family: nidus;
+  src: url('nidsans-webfont.eot'); /* IE9 Compat Modes */
+  src: url('nidsans-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+     url('nidsans-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+     url('nidsans-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+   url('nidsans-webfont.svg') format('svg'); /* Legacy iOS */
+}
+
+
+.border-visible {
+  border-color: #6CFC5F;
+  border-width: 0px;
+  border-style: solid;
+}
+
+.edit-border-visible {
+  border-color: #6CFC5F;
+  border-width: 1px;
+  border-style: solid;
+}
+
+body {
+    overflow:hidden;
+    background-color: black;
+    color: white;
+/*    font-family: "Lato", sans-serif;*/
+}
+
+.sidenav {
+  height: 100%;
+  width: 100%;
+  min-width: 130px;
+  position: relative;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: green;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+
+
+
+#main {
+  height: 100vh;
+}
+
+#main_map {
+    color:black;
+    position: relative;
+    background-image:url(background);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:70vh 70vh;
+    height: 70vh;
+    width: auto;
+}
+
+.drone {
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  background-image: url(drone_green.png);
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-position: center; 
+  z-index: 100;
+}
+
+
+
+#command_buttons div {
+  text-align: center;
+  height: 5vh
+}
+
+#command_buttons button, #command_buttons select{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+select.form-control:not([size]):not([multiple]){
+  font-size: 9pt;
+  height: auto;
+}
+
+#global_count {
+  position: relative;
+  height: 20vh;
+  color: #6CFC5F;
+  font-size: 15vh;
+  vertical-align: center;
+  line-height: 20vh;
+  font-weight: bold;
+/*  font-family:  nidus;*/
+  text-align: center;
+  transform: translate(10%, -15%);
+}
+
+#global_count_graph {
+  height:20vh;
+  width:100%;
+}
+
+
+
+
+
+.drone_ui  {
+  position: relative;
+  height: 33vh;
+  display: none;
+}
+
+.drone_info {
+  position: absolute;
+  background-image: url(coyote_empty.png);
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-position: center;
+  background-color:   black;
+  height: 17vh;
+  width: 17vh;
+  left: 0px;
+}
+
+.count_graph {
+  position: absolute;
+  top: 17vh;
+  background-color: grey; 
+  height: 17vh;
+  width: 17vh;
+}
+
+.battery_gauge {
+  position: absolute;
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-position: center;
+  height: 17vh;
+  width: 17vh;
+}
+
+
+.count {
+  position: absolute;
+  color: #6CFC5F;
+  font-size: 5vh;
+  font-weight: bold;
+/*  font-family:  nidus;*/
+  top: 9vh;
+  left: 8.5vh;
+  transform: translate(-50%, -75%);
+}
+
+.battery_pct {
+  position: absolute;
+  color: #6CFC5F;
+  font-size: 2vh;
+/*  font-family:  nidus;*/
+  top: 13.5vh;
+  left: 4vh;
+  transform: translate(-50%,0%); /* left , top */
+  }
+
+.speed {
+  position: absolute;
+  color: #6CFC5F;
+  font-size: 2vh;
+  font-family:  nidus;
+  top: 13.5vh;
+  left: 12vh;
+/*  transform: translate(150%,200%);  left, top , in % of current div 
+*/}
+
+.connection_status {
+  position: absolute;
+  font-size: 1vh;
+  font-family:  nidus;
+  top: 16.5vh;
+  left: 8.5vh;
+  transform: translate(-50%,0%);
+}
+
+
+.connection_status_video {
+  position: absolute;
+  font-size: 4vh;
+/*  font-family:  nidus;*/
+  top: 13vh;
+  left: 40vh;
+  transform: translate(-50%,0%);
+  z-index: 100;
+}
+
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.connected {
+  color: #6CFC5F;
+}
+
+.disconnected {
+  color: #FF0000;
+}
+
+.blink{
+  animation: blinker 2s linear infinite;
+}
+
+.drone_video  {
+  position: absolute;
+  left: 17vh;
+  height: 33vh;
+  width: 40vh;
+  background-color:   black;
+}
+
+
+
+.zone_settings input {
+  width: 80%;
+}
+
+.edit_instructions {
+  font-size: 10px;
+}
+
+
+
+
+.recording_video  {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  height: 90vh;
+  width: 120vh;
+  background-color:   black;
+}
+
+#status {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: red;
+}
+
+
+#archi {
+  position: absolute;
+  width: 110%;
+  left: -20%;
+  top: 50%;
+  background-image: url(archi.png);
+  display: none;
+}
+
+#source_selector img {
+  display: none;
+  vertical-align: baseline;
+}

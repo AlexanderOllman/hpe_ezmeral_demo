@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style2.css') }}">
+
+    <meta charset="UTF-8">
+    <title>HPE Ezmeral Cloud Dashboard</title>
+</head>
+
+<script type="text/javascript">
+                var intervalID = setInterval(update_values,1000);
+		
+                $(function() {
+                  $(".selectable").selectable({
+                    selected: function() {
+                      var selectedItemList = $("#selected-item-list").empty();
+                      $(".selectable img").each(function(index) {
+                        if ($(this).hasClass("ui-selected")) {
+			stopTextColour();
+                          selectedItemList.append((index + 1) + ", ");
+                        }
+                      });
+                    }
+                  });
+                });
+
+                 function startStream(){
+
+                 intervalID = setInterval(update_values,1000);
+                 }
+
+
+                $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+                function update_values() {
+                        $.getJSON($SCRIPT_ROOT + '/_stuff',
+
+                    function(data) {
+                        var line = document.getElementById("images");
+                        line.innerHTML = ""
+                        var numArray = data.b;
+                        var dataPath = data.path;
+                        for (i = 0, n = numArray.length; i < n; i++) {
+                            image = dataPath + "frame_" + numArray[i] + ".jpg"
+              		if (i % 4 == 0){
+                   line.innerHTML += "<div class='col-3'><img class='ui-widget-content rounded img-fluid' src='"+image+"'/></div>"
+			}
+			else{	             
+                           line.innerHTML += "<div class='col-3'><img class='ui-widget-content rounded img-fluid'  src='"+image+"'/></div>"
+		}
+		}
+
+                        console.log(data)
+                    });
+                    };
+
+
+
+                    function stopTextColor() {
+                    clearInterval(intervalID);
+                    }
+
+$('#bologna-list a').on('click', function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+
+
+
+</script>
+
+    <body onload="update_values();">
+
+        <h1>HPE Ezmeral - Central Command Dashboard</h1>
+
+	<div class="container">
+	<div class="row selectable" id="images">
+        
+</div>
+	</div>
+        <button onclick="stopTextColor();">Stop</button>
+        <button onclick="startStream();">Start</button>
+        <button>Print Image</button>
+
+<form>
+    <input type="submit" name="forward" value="Forward">
+    <input type="submit" name="left" value="Left">
+</form>
+    </body>
