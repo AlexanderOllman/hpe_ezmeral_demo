@@ -1,0 +1,14 @@
+@font-face {
+  font-family: MetricHPE;
+ 
+  src: url('../fonts/MetricHPE_Desktop/MetricHPE-Desktop-Semibold.otf');
+}
+
+
+body{
+    background-color: black;
+    font-family: MetricHPE;
+    color: white;
+    font-weight: bold;
+}
+

@@ -1,7 +1,6 @@
 @font-face {
   font-family: MetricHPE;
- 
-  src: url('../fonts/MetricHPE_Desktop/MetricHPE-Desktop-Semibold.otf');
+  src: url("../fonts/MetricHPE/MetricHPE-Web-Bold.woff");
 }
 
 

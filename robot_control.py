@@ -49,7 +49,9 @@ ROOT_PATH = '/mapr/' + CLUSTER_NAME + '/projects' + PROJECT_FOLDER
 
 DATA_FOLDER = ROOT_PATH + "data/" # Folder to store the data
 
-ROBOT_STREAM = DATA_FOLDER + 'robot_stream' # Stream for the video frame>
+ROBOT_VIDEO_STREAM = DATA_FOLDER + 'robot_cam_stream' # Stream for the video frame>
+
+ROBOT_STREAM = DATA_FOLDER + 'robot_stream'
 
 STATIC_FOLDER = ROOT_PATH + "static/"
 
@@ -58,15 +60,43 @@ stream_topic = 'command'
 consumer_group = str(time.time())
 c = Consumer({'group.id': consumer_group, 'default.topic.config':{'auto.offset.reset':'latest'}})
 c.subscribe([ROBOT_STREAM + ":" + stream_topic ])
-
+video_producer = Producer({'streams.producer.default.stream': ROBOT_VIDEO_STREAM})
+topic = 'video_feed'
 robo = Robot()
+
+
+def receipt(err,msg):
+    if err is not None:
+        print('Error: {}'.format(err))
+    else:
+        message = 'Produced message on topic {} with value of {}\n'.format(msg.topic(), msg.value().decode('utf-8'))
+        logger.info(message)
+        print(message)
+
+def robotCamera(frame, i):
+    savePath = STATIC_FOLDER + "robot_images/"
+    fileName = savePath + "frame_" + str(i) + ".jpg"
+    cv2.imwrite(fileName, frame)
+    data = {
+            'offset': time.time(),
+            'frame': fileName,
+        }
+    m = json.dumps(data)
+    video_producer.poll(0.2)
+    video_producer.produce(topic, m.encode('utf-8'), callback=receipt)
+    video_producer.flush()
 
 
 
 print('Robot Control Starting...')     
-
+i = 1
 while True:
-
+#    ret, frame = robo.cap.read()
+ #   robotCamera(frame,i)
+    if i == 20:
+        i = 1 
+    else:
+        i = i + 1                 
     msg=c.poll(0.1) #timeout
     if msg is None:
         continue
@@ -87,6 +117,7 @@ while True:
             robo.moveBackward()
         if command == "s":
             robo.stop()
-
+ 
+robo.cap.release()
 c.close()
 
