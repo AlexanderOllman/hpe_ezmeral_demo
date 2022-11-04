@@ -53,13 +53,13 @@ print("Creating Ezmeral Data streams ...")
 
 def create_stream(stream_path):
     if not os.path.islink(stream_path):
-    print("creating stream: "+'maprcli stream create -path ' + stream_path + ' -produceperm p -consumeperm p -topicperm p -copyperm p -adminperm p')
-    os.system('maprcli stream create -path ' + stream_path + ' -produceperm p -consumeperm p -topicperm p -copyperm p -adminperm p')
+        print("creating stream: "+'maprcli stream create -path ' + stream_path + ' -produceperm p -consumeperm p -topicperm p -copyperm p -adminperm p')
+        os.system('maprcli stream create -path ' + stream_path + ' -produceperm p -consumeperm p -topicperm p -copyperm p -adminperm p')
 
 def create_and_get_table(connection, table_path):
     if connection.is_store_exists(table_path):
         data_store = connection.get_store(table_path)
-        else:
+    else:
         data_store = connection.create_store(table_path)
     return data_store
 
