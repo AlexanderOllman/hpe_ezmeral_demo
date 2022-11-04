@@ -1,0 +1,311 @@
+
+
+from confluent_kafka import Producer
+import json
+import logging
+import random
+
+from flask import Flask, render_template, Response
+from threading import Thread
+from imutils.video import FPS
+
+import cv2
+import numpy as np
+from collections import namedtuple
+import robomasterpy
+import time
+from robot import Robot
+Rectangle = namedtuple('Rectangle', 'xmin ymin width height')
+
+#from camera import IPCamera
+app = Flask(__name__)
+
+
+# use 0 for web camera
+#  for cctv camera use rtsp://username:password@ip_address:554/user=username_password='password'_channel=channel_number_stream=0.sdp' instead of camera
+# for local webcam use cv2.VideoCapture(0)
+
+class WebcamVideoStream:
+    def __init__(self, src=0):
+        # initialize the video camera stream and read the first frame
+        # from the stream
+        self.stream = cv2.VideoCapture(src)
+        self.stream.set(cv2.CAP_PROP_BUFFERSIZE, 1)
+        self.width = self.stream.get(3)
+        self.height = self.stream.get(4)
+        (self.grabbed, self.frame) = self.stream.read()
+        # initialize the variable used to indicate if the thread should
+        # be stopped
+        self.stopped = False
+
+    def start(self):
+        # start the thread to read frames from the video stream
+        Thread(target=self.update, args=()).start()
+        return self
+
+
+    def update(self):
+        # keep looping infinitely until the thread is stopped
+        while True:
+            # if the thread indicator variable is set, stop the thread
+            if self.stopped:
+                return
+            # otherwise, read the next frame from the stream
+            (self.grabbed, self.frame) = self.stream.read()
+
+
+    def read(self):
+        # return the frame most recently read
+        return self.frame
+
+
+    def stop(self):
+        # indicate that the thread should be stopped
+        self.stopped = True
+
+
+class faceProcessing:
+
+    def __init__(self, frame=None):
+        self.frame = frame
+        self.stopped = False
+
+    def faceStart(self):
+        Thread(target=self.getFaces, args=()).start()
+        return self
+    
+    def getFaces(self)
+        while not self.stopped:
+            
+
+    def stop(self):
+        self.stopped = True
+
+
+logging.basicConfig(format='%(asctime)s %(message)s',
+                    datefmt='%Y-%m-%d %H:%M:%S',
+                    filename='producer.log',
+                    filemode='w')
+
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+
+vs = WebcamVideoStream(src='rtsp://admin:Admin12345@192.168.100.131/Src/MediaInput/stream_2').start()
+fps = FPS().start()
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+smile_cascade = cv2.CascadeClassifier('haarcascade_smile.xml')
+
+
+
+def get_cluster_name():
+  with open('/opt/mapr/conf/mapr-clusters.conf', 'r') as f:
+    first_line = f.readline()
+    return first_line.split(' ')[0]
+
+def get_cluster_ip():
+  with open('/opt/mapr/conf/mapr-clusters.conf', 'r') as f:
+    first_line = f.readline()
+    return first_line.split(' ')[2].split(':')[0]
+
+
+CLUSTER_NAME = get_cluster_name()
+CLUSTER_IP = get_cluster_ip()
+
+PROJECT_FOLDER = "/teits/" # Project folder from the cluster root
+
+ROOT_PATH = '/mapr/' + CLUSTER_NAME + '/projects' + PROJECT_FOLDER
+
+DATA_FOLDER = ROOT_PATH + "data/" # Folder to store the data
+
+VIDEO_STREAM = DATA_FOLDER + 'video_stream' # Stream for the video frame>
+
+STATIC_FOLDER = ROOT_PATH + "static/"
+
+ROBOT_STREAM = DATA_FOLDER + 'robot_stream'
+
+video_producer = Producer({'streams.producer.default.stream': VIDEO_STREAM})
+robot_producer = Producer({'streams.producer.default.stream': ROBOT_STREAM})
+
+
+
+print('Kafka Producer has been initiated...')
+
+def receipt(err,msg):
+    if err is not None:
+        print('Error: {}'.format(err))
+    else:
+        message = 'Produced message on topic {} with value of {}\n'.format(msg.topic(), msg.value().decode('utf-8'))
+        logger.info(message)
+        print(message)
+
+
+
+def overlap(box, face):
+    a = [box.xmin, box.ymin]
+    b = [box.xmin + box.width, box.ymin + box.height]
+    c = [face.xmin, face.ymin]
+    d = [face.xmin + face.width, face.ymin + face.height]
+    x, y = 0,1
+
+    width = min(b[x], d[x]) - max(a[x], c[x])
+    height = min(b[y], d[y]) - max(a[y], c[y])
+
+    if min(width, height) > 0:
+        return width * height
+    else:
+        return 0
+
+def drawRectangle(frame, rect, colour):
+    shapes = np.zeros_like(frame, np.uint8)
+    if colour == 'white':
+        col = (255,255,255)
+    elif colour == 'red':
+        col = (0,0,255)
+    elif colour == 'blue':
+        col = (255,0,0)
+    elif colour == 'green':
+        col = (0,255,0)
+
+    cv2.rectangle(shapes, (rect.xmin, rect.ymin), (rect.width+rect.xmin, rect.height+rect.ymin), col, cv2.FILLED)
+    alpha = 0.5
+    mask = shapes.astype(bool)
+    frame[mask] = cv2.addWeighted(frame, alpha, shapes, 1 - alpha, 0)[mask]
+
+def produceMessage(stream, topic, message):
+    m = json.dumps(message)
+    stream.poll(1)
+    stream.produce(topic, m.encode('utf-8'), callback=receipt)
+    stream.flush()
+
+
+
+def gen_frames():  
+
+    width = int(vs.width)
+    height = int(vs.height)
+    i = 0
+    j = 0
+
+    savePath = STATIC_FOLDER + "images/"
+    while True:
+        # Capture frame-by-frame
+        frame = vs.read()
+         
+        
+        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        faces = face_cascade.detectMultiScale(
+            gray,
+            scaleFactor=1.1,
+            minNeighbors=5,
+            minSize=(100, 100),
+            flags=cv2.CASCADE_SCALE_IMAGE
+        )
+        left = Rectangle(0, 0, int(width / 4), height)
+        drawRectangle(frame, left, 'green')
+
+        right = Rectangle(width - int(width / 4), 0, width, height)
+        drawRectangle(frame, right, 'red')
+        #
+        forward = Rectangle(int(width / 4), 0, width - int(width / 2), int(height / 5))
+        drawRectangle(frame, forward, 'white')
+
+        back = Rectangle(int(width / 4), height - int(height / 5), width - int(width / 2), int(height / 5))
+        drawRectangle(frame, back, 'blue')
+
+        x, y, w, h = 0, 0, 0, 0
+        for (x, y, w, h) in faces:
+            cv2.rectangle(frame, (x, y), (x + w, y + h), (130, 169, 1), 4)
+            # Grab ROI with Numpy slicing and blur`		
+            face = Rectangle(x, y, w, h)
+
+            roi = gray[y:y + h, x:x + w]
+            smile_rects, rejectLevels, levelWeights = smile_cascade.detectMultiScale3(roi, 2.5, 20, outputRejectLevels=True)
+            if (overlap(left, face)):
+                print("LEFT")
+                data = {
+                    'offset': time.time(),
+                    'control': 'l',
+                }
+                produceMessage(robot_producer,'command', data) 
+                boolGo = False
+            elif (overlap(right, face)):
+                print("RIGHT")
+                data = {
+                    'offset': time.time(),
+                    'control': 'r',
+                }
+                produceMessage(robot_producer,'command', data)
+                boolGo = False
+            elif (overlap(forward, face)):
+                print("FORWARD")
+                data = {
+                    'offset': time.time(),
+                    'control': 'f',
+                }
+                produceMessage(robot_producer,'command', data)
+                boolGo = False
+            elif (overlap(back, face)):
+                print("BACK")
+                data = {
+                    'offset': time.time(),
+                    'control': 'b',
+                }
+                produceMessage(robot_producer,'command', data)
+                boolGo = False
+            else:
+                print("STOP")
+                data = {
+                    'offset': time.time(),
+                    'control': 's',
+                }
+                produceMessage(robot_producer,'command', data)
+                boolGo = False
+
+
+
+
+            if len(levelWeights) == 0:
+                print("Not Smiling")
+            else:
+                if max(levelWeights) < 2:
+                    print("Not smiling")
+                else:
+                    print("Smiling!")
+                    if j > 10:
+                        fileName = savePath + "frame_" + str(i) + ".jpg"
+                        cv2.imwrite(fileName, frame)
+                        data = {
+                                'offset': time.time(),
+                                'user_id': i,
+                                'frame': fileName,
+                                      }
+                        produceMessage(video_producer, 'user-stream', data)
+        i = i + 1
+       	if i == 20:
+            i = 0
+                       # j = 0
+     #   fileName = savePath + "frame_" + str(i) + ".jpg"
+      #  cv2.imwrite(fileName, frame)
+        j = j + 1
+        ret, buffer = cv2.imencode('.jpg', frame)
+
+        frame = buffer.tobytes()
+        yield (b'--frame\r\n'
+               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')  # concat frame one by one and show result
+        
+
+@app.route('/video_feed')
+def video_feed():
+    #Video streaming route. Put this in the src attribute of an img tag
+    return Response(gen_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
+
+
+@app.route('/')
+def index():
+    #robo = Robot()
+    """Video streaming home page."""
+    return render_template('index.html')
+
+
+if __name__ == '__main__':
+    app.run(debug=True, host='0.0.0.0', port=9990)

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Eye In The Sky - Video Recorder</title>
+  <link rel="stylesheet" href="{{url_for('static', filename='jquery-ui.css')}}">
+  <link rel="stylesheet" href="{{url_for('static', filename='bootstrap.min.css')}}">
+  <link rel="stylesheet" href="{{url_for('static', filename='teits.css')}}">
+</head>
+<body> 
+  <div id="main">
+    <div class="row">
+      <div class="col-2 offset-2 text-center">
+        <select class="form-control" id="zone_selector">
+          {% for zone in zones %}
+            <option value={{zone._id}}>{{zone._id}}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="col-2 text-center">
+        <button class="btn" id="recorder_btn">START</button>
+      </div>
+      <div class="col-2 text-center">
+        <button class="btn" id="delete_btn">Delete</button>
+      </div>
+      <div class="col-2">
+        <span id="minutes">0</span>:<span id="seconds">0</span>:<span id="tenths">0</span>
+      </div>
+
+      <div class="col-2">
+        <span class="blink" id="status"></span>
+      </div>
+    </div>
+    <div class="row">
+      <img src="video_stream" class="recording_video">
+    </div>
+  </div>
+</body>
+
+  <script type="text/javascript" src="{{url_for('static', filename='jquery-1.12.4.js')}}"></script>
+  <script type="text/javascript" src="{{url_for('static', filename='jquery-ui.js')}}"></script>
+  <script type="text/javascript" src="{{url_for('static', filename='popper.min.js')}}"></script>
+  <script type="text/javascript" src="{{url_for('static', filename='bootstrap.min.js')}}"></script>
+  <script type="text/javascript" src="{{url_for('static', filename='highcharts.js')}}"></script>
+  <script type="text/javascript" src="{{url_for('static', filename='exporting.js')}}"></script>
+  <script type="text/javascript" src="{{url_for('static', filename='teits_recorder.js')}}"></script>
+</html>

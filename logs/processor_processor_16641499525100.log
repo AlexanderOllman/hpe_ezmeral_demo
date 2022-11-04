@@ -1,0 +1,716 @@
+2022-09-26 09:52:33 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-30.jpg exists
+2022-09-26 09:52:33 :: INFO :: Waiting for previous frame to complete - Current offset : 3, Last committed offset : 0
+2022-09-26 09:52:35 :: INFO :: Wait time : 1.9559051990509033
+2022-09-26 09:52:35 :: INFO :: Elapsed : 3 s, processed 0 fps, [30]
+2022-09-26 09:52:41 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-213.jpg exists
+2022-09-26 09:52:41 :: INFO :: Elapsed : 8 s, processed 0 fps, [213]
+2022-09-26 09:53:00 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-656.jpg exists
+2022-09-26 09:53:00 :: INFO :: Elapsed : 27 s, processed 0 fps, [656]
+2022-09-26 09:53:05 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-772.jpg exists
+2022-09-26 09:53:05 :: INFO :: Elapsed : 33 s, processed 0 fps, [772]
+2022-09-26 09:53:18 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1076.jpg exists
+2022-09-26 09:53:18 :: INFO :: Waiting for previous frame to complete - Current offset : 333, Last committed offset : 331
+2022-09-26 09:53:20 :: INFO :: Wait time : 2.0081019401550293
+2022-09-26 09:53:20 :: INFO :: Elapsed : 48 s, processed 0 fps, [1076]
+2022-09-26 09:53:21 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-0.jpg exists
+2022-09-26 09:53:21 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-3.jpg exists
+2022-09-26 09:53:21 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-6.jpg exists
+2022-09-26 09:53:21 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-9.jpg exists
+2022-09-26 09:53:21 :: INFO :: Elapsed : 49 s, processed 0 fps, [0, 3, 6, 9]
+2022-09-26 09:53:21 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-12.jpg exists
+2022-09-26 09:53:21 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-15.jpg exists
+2022-09-26 09:53:21 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-18.jpg exists
+2022-09-26 09:53:22 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-21.jpg exists
+2022-09-26 09:53:22 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-24.jpg exists
+2022-09-26 09:53:22 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-27.jpg exists
+2022-09-26 09:53:22 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-30.jpg exists
+2022-09-26 09:53:22 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-33.jpg exists
+2022-09-26 09:53:22 :: INFO :: Elapsed : 50 s, processed 0 fps, [12, 15, 18, 21, 24, 27, 30, 33]
+2022-09-26 09:53:22 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-36.jpg exists
+2022-09-26 09:53:22 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-39.jpg exists
+2022-09-26 09:53:22 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-42.jpg exists
+2022-09-26 09:53:23 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-45.jpg exists
+2022-09-26 09:53:23 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-48.jpg exists
+2022-09-26 09:53:23 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-51.jpg exists
+2022-09-26 09:53:23 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-54.jpg exists
+2022-09-26 09:53:23 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-57.jpg exists
+2022-09-26 09:53:23 :: INFO :: Elapsed : 51 s, processed 0 fps, [36, 39, 42, 45, 48, 51, 54, 57]
+2022-09-26 09:53:23 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-60.jpg exists
+2022-09-26 09:53:23 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-63.jpg exists
+2022-09-26 09:53:23 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-66.jpg exists
+2022-09-26 09:53:24 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-69.jpg exists
+2022-09-26 09:53:24 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-72.jpg exists
+2022-09-26 09:53:24 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-75.jpg exists
+2022-09-26 09:53:24 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-78.jpg exists
+2022-09-26 09:53:24 :: INFO :: Elapsed : 52 s, processed 0 fps, [60, 63, 66, 69, 72, 75, 78]
+2022-09-26 09:53:24 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-81.jpg exists
+2022-09-26 09:53:24 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-84.jpg exists
+2022-09-26 09:53:24 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-87.jpg exists
+2022-09-26 09:53:25 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-90.jpg exists
+2022-09-26 09:53:25 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-93.jpg exists
+2022-09-26 09:53:25 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-95.jpg exists
+2022-09-26 09:53:25 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-98.jpg exists
+2022-09-26 09:53:25 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-101.jpg exists
+2022-09-26 09:53:25 :: INFO :: Elapsed : 53 s, processed 0 fps, [81, 84, 87, 90, 93, 95, 98, 101]
+2022-09-26 09:53:25 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-104.jpg exists
+2022-09-26 09:53:25 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-107.jpg exists
+2022-09-26 09:53:25 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-110.jpg exists
+2022-09-26 09:53:26 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-113.jpg exists
+2022-09-26 09:53:26 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-116.jpg exists
+2022-09-26 09:53:26 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-119.jpg exists
+2022-09-26 09:53:26 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-122.jpg exists
+2022-09-26 09:53:26 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-125.jpg exists
+2022-09-26 09:53:26 :: INFO :: Elapsed : 54 s, processed 0 fps, [104, 107, 110, 113, 116, 119, 122, 125]
+2022-09-26 09:53:26 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-128.jpg exists
+2022-09-26 09:53:26 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-131.jpg exists
+2022-09-26 09:53:27 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-134.jpg exists
+2022-09-26 09:53:27 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-137.jpg exists
+2022-09-26 09:53:27 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-140.jpg exists
+2022-09-26 09:53:27 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-143.jpg exists
+2022-09-26 09:53:27 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-146.jpg exists
+2022-09-26 09:53:27 :: INFO :: Elapsed : 55 s, processed 0 fps, [128, 131, 134, 137, 140, 143, 146]
+2022-09-26 09:53:27 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-149.jpg exists
+2022-09-26 09:53:27 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-152.jpg exists
+2022-09-26 09:53:27 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-155.jpg exists
+2022-09-26 09:53:28 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-158.jpg exists
+2022-09-26 09:53:28 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-161.jpg exists
+2022-09-26 09:53:28 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-164.jpg exists
+2022-09-26 09:53:28 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-167.jpg exists
+2022-09-26 09:53:28 :: INFO :: Elapsed : 56 s, processed 0 fps, [149, 152, 155, 158, 161, 164, 167]
+2022-09-26 09:53:28 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-170.jpg exists
+2022-09-26 09:53:28 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-173.jpg exists
+2022-09-26 09:53:28 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-176.jpg exists
+2022-09-26 09:53:29 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-179.jpg exists
+2022-09-26 09:53:29 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-182.jpg exists
+2022-09-26 09:53:29 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-185.jpg exists
+2022-09-26 09:53:29 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-188.jpg exists
+2022-09-26 09:53:29 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-191.jpg exists
+2022-09-26 09:53:29 :: INFO :: Elapsed : 57 s, processed 0 fps, [170, 173, 176, 179, 182, 185, 188, 191]
+2022-09-26 09:53:29 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-194.jpg exists
+2022-09-26 09:53:29 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-197.jpg exists
+2022-09-26 09:53:29 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-200.jpg exists
+2022-09-26 09:53:30 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-203.jpg exists
+2022-09-26 09:53:30 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-206.jpg exists
+2022-09-26 09:53:30 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-211.jpg exists
+2022-09-26 09:53:30 :: INFO :: Elapsed : 58 s, processed 0 fps, [194, 197, 200, 203, 206, 211]
+2022-09-26 09:53:30 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-214.jpg exists
+2022-09-26 09:53:30 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-217.jpg exists
+2022-09-26 09:53:30 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-220.jpg exists
+2022-09-26 09:53:31 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-223.jpg exists
+2022-09-26 09:53:31 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-226.jpg exists
+2022-09-26 09:53:31 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-229.jpg exists
+2022-09-26 09:53:31 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-232.jpg exists
+2022-09-26 09:53:31 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-235.jpg exists
+2022-09-26 09:53:31 :: INFO :: Elapsed : 59 s, processed 0 fps, [214, 217, 220, 223, 226, 229, 232, 235]
+2022-09-26 09:53:31 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-238.jpg exists
+2022-09-26 09:53:31 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-241.jpg exists
+2022-09-26 09:53:31 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-244.jpg exists
+2022-09-26 09:53:32 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-247.jpg exists
+2022-09-26 09:53:32 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-250.jpg exists
+2022-09-26 09:53:32 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-253.jpg exists
+2022-09-26 09:53:32 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-256.jpg exists
+2022-09-26 09:53:32 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-259.jpg exists
+2022-09-26 09:53:32 :: INFO :: Elapsed : 60 s, processed 0 fps, [238, 241, 244, 247, 250, 253, 256, 259]
+2022-09-26 09:53:32 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-262.jpg exists
+2022-09-26 09:53:32 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-265.jpg exists
+2022-09-26 09:53:33 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-268.jpg exists
+2022-09-26 09:53:33 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-271.jpg exists
+2022-09-26 09:53:33 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-274.jpg exists
+2022-09-26 09:53:33 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-277.jpg exists
+2022-09-26 09:53:33 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-280.jpg exists
+2022-09-26 09:53:33 :: INFO :: Elapsed : 61 s, processed 0 fps, [262, 265, 268, 271, 274, 277, 280]
+2022-09-26 09:53:33 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-283.jpg exists
+2022-09-26 09:53:33 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-286.jpg exists
+2022-09-26 09:53:33 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-289.jpg exists
+2022-09-26 09:53:34 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-292.jpg exists
+2022-09-26 09:53:34 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-295.jpg exists
+2022-09-26 09:53:34 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-298.jpg exists
+2022-09-26 09:53:34 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-301.jpg exists
+2022-09-26 09:53:34 :: INFO :: Elapsed : 62 s, processed 0 fps, [283, 286, 289, 292, 295, 298, 301]
+2022-09-26 09:53:34 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-304.jpg exists
+2022-09-26 09:53:34 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-307.jpg exists
+2022-09-26 09:53:34 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-310.jpg exists
+2022-09-26 09:53:35 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-313.jpg exists
+2022-09-26 09:53:35 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-316.jpg exists
+2022-09-26 09:53:35 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-318.jpg exists
+2022-09-26 09:53:35 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-321.jpg exists
+2022-09-26 09:53:35 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-324.jpg exists
+2022-09-26 09:53:35 :: INFO :: Elapsed : 63 s, processed 0 fps, [304, 307, 310, 313, 316, 318, 321, 324]
+2022-09-26 09:53:35 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-327.jpg exists
+2022-09-26 09:53:35 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-330.jpg exists
+2022-09-26 09:53:35 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-333.jpg exists
+2022-09-26 09:53:36 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-336.jpg exists
+2022-09-26 09:53:36 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-339.jpg exists
+2022-09-26 09:53:36 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-342.jpg exists
+2022-09-26 09:53:36 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-345.jpg exists
+2022-09-26 09:53:36 :: INFO :: Elapsed : 64 s, processed 0 fps, [327, 330, 333, 336, 339, 342, 345]
+2022-09-26 09:53:36 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-348.jpg exists
+2022-09-26 09:53:36 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-351.jpg exists
+2022-09-26 09:53:36 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-354.jpg exists
+2022-09-26 09:53:37 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-357.jpg exists
+2022-09-26 09:53:37 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-360.jpg exists
+2022-09-26 09:53:37 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-363.jpg exists
+2022-09-26 09:53:37 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-366.jpg exists
+2022-09-26 09:53:37 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-369.jpg exists
+2022-09-26 09:53:37 :: INFO :: Elapsed : 65 s, processed 0 fps, [348, 351, 354, 357, 360, 363, 366, 369]
+2022-09-26 09:53:37 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-372.jpg exists
+2022-09-26 09:53:37 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-375.jpg exists
+2022-09-26 09:53:37 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-378.jpg exists
+2022-09-26 09:53:38 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-381.jpg exists
+2022-09-26 09:53:38 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-384.jpg exists
+2022-09-26 09:53:38 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-387.jpg exists
+2022-09-26 09:53:38 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-390.jpg exists
+2022-09-26 09:53:38 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-393.jpg exists
+2022-09-26 09:53:38 :: INFO :: Elapsed : 66 s, processed 0 fps, [372, 375, 378, 381, 384, 387, 390, 393]
+2022-09-26 09:53:38 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-396.jpg exists
+2022-09-26 09:53:38 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-399.jpg exists
+2022-09-26 09:53:38 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-402.jpg exists
+2022-09-26 09:53:39 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-405.jpg exists
+2022-09-26 09:53:39 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-408.jpg exists
+2022-09-26 09:53:39 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-411.jpg exists
+2022-09-26 09:53:39 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-414.jpg exists
+2022-09-26 09:53:39 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-417.jpg exists
+2022-09-26 09:53:39 :: INFO :: Elapsed : 67 s, processed 0 fps, [396, 399, 402, 405, 408, 411, 414, 417]
+2022-09-26 09:53:39 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-420.jpg exists
+2022-09-26 09:53:39 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-423.jpg exists
+2022-09-26 09:53:39 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-426.jpg exists
+2022-09-26 09:53:40 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-429.jpg exists
+2022-09-26 09:53:40 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-432.jpg exists
+2022-09-26 09:53:40 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-435.jpg exists
+2022-09-26 09:53:40 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-438.jpg exists
+2022-09-26 09:53:40 :: INFO :: Elapsed : 68 s, processed 0 fps, [420, 423, 426, 429, 432, 435, 438]
+2022-09-26 09:53:40 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-441.jpg exists
+2022-09-26 09:53:40 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-444.jpg exists
+2022-09-26 09:53:40 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-447.jpg exists
+2022-09-26 09:53:41 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-450.jpg exists
+2022-09-26 09:53:41 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-453.jpg exists
+2022-09-26 09:53:41 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-456.jpg exists
+2022-09-26 09:53:41 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-459.jpg exists
+2022-09-26 09:53:41 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-462.jpg exists
+2022-09-26 09:53:41 :: INFO :: Elapsed : 69 s, processed 0 fps, [441, 444, 447, 450, 453, 456, 459, 462]
+2022-09-26 09:53:41 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-465.jpg exists
+2022-09-26 09:53:41 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-468.jpg exists
+2022-09-26 09:53:41 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-471.jpg exists
+2022-09-26 09:53:42 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-474.jpg exists
+2022-09-26 09:53:42 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-477.jpg exists
+2022-09-26 09:53:42 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-480.jpg exists
+2022-09-26 09:53:42 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-483.jpg exists
+2022-09-26 09:53:42 :: INFO :: Elapsed : 70 s, processed 0 fps, [465, 468, 471, 474, 477, 480, 483]
+2022-09-26 09:53:42 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-486.jpg exists
+2022-09-26 09:53:42 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-489.jpg exists
+2022-09-26 09:53:42 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-492.jpg exists
+2022-09-26 09:53:43 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-495.jpg exists
+2022-09-26 09:53:43 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-498.jpg exists
+2022-09-26 09:53:43 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-501.jpg exists
+2022-09-26 09:53:43 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-504.jpg exists
+2022-09-26 09:53:43 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-507.jpg exists
+2022-09-26 09:53:43 :: INFO :: Elapsed : 71 s, processed 0 fps, [486, 489, 492, 495, 498, 501, 504, 507]
+2022-09-26 09:53:43 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-510.jpg exists
+2022-09-26 09:53:43 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-513.jpg exists
+2022-09-26 09:53:43 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-516.jpg exists
+2022-09-26 09:53:44 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-519.jpg exists
+2022-09-26 09:53:44 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-522.jpg exists
+2022-09-26 09:53:44 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-525.jpg exists
+2022-09-26 09:53:44 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-528.jpg exists
+2022-09-26 09:53:44 :: INFO :: Elapsed : 72 s, processed 0 fps, [510, 513, 516, 519, 522, 525, 528]
+2022-09-26 09:53:44 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-531.jpg exists
+2022-09-26 09:53:44 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-534.jpg exists
+2022-09-26 09:53:44 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-537.jpg exists
+2022-09-26 09:53:45 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-540.jpg exists
+2022-09-26 09:53:45 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-543.jpg exists
+2022-09-26 09:53:45 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-546.jpg exists
+2022-09-26 09:53:45 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-549.jpg exists
+2022-09-26 09:53:45 :: INFO :: Elapsed : 73 s, processed 0 fps, [531, 534, 537, 540, 543, 546, 549]
+2022-09-26 09:53:45 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-552.jpg exists
+2022-09-26 09:53:45 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-555.jpg exists
+2022-09-26 09:53:45 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-558.jpg exists
+2022-09-26 09:53:46 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-561.jpg exists
+2022-09-26 09:53:46 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-564.jpg exists
+2022-09-26 09:53:46 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-567.jpg exists
+2022-09-26 09:53:46 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-570.jpg exists
+2022-09-26 09:53:46 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-573.jpg exists
+2022-09-26 09:53:46 :: INFO :: Elapsed : 74 s, processed 0 fps, [552, 555, 558, 561, 564, 567, 570, 573]
+2022-09-26 09:53:46 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-576.jpg exists
+2022-09-26 09:53:46 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-579.jpg exists
+2022-09-26 09:53:46 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-582.jpg exists
+2022-09-26 09:53:47 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-585.jpg exists
+2022-09-26 09:53:47 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-588.jpg exists
+2022-09-26 09:53:47 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-591.jpg exists
+2022-09-26 09:53:47 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-594.jpg exists
+2022-09-26 09:53:47 :: INFO :: Elapsed : 75 s, processed 0 fps, [576, 579, 582, 585, 588, 591, 594]
+2022-09-26 09:53:47 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-597.jpg exists
+2022-09-26 09:53:47 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-600.jpg exists
+2022-09-26 09:53:47 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-603.jpg exists
+2022-09-26 09:53:48 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-606.jpg exists
+2022-09-26 09:53:48 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-609.jpg exists
+2022-09-26 09:53:48 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-612.jpg exists
+2022-09-26 09:53:48 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-615.jpg exists
+2022-09-26 09:53:48 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-618.jpg exists
+2022-09-26 09:53:48 :: INFO :: Elapsed : 76 s, processed 0 fps, [597, 600, 603, 606, 609, 612, 615, 618]
+2022-09-26 09:53:48 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-621.jpg exists
+2022-09-26 09:53:48 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-624.jpg exists
+2022-09-26 09:53:48 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-627.jpg exists
+2022-09-26 09:53:49 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-630.jpg exists
+2022-09-26 09:53:49 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-633.jpg exists
+2022-09-26 09:53:49 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-636.jpg exists
+2022-09-26 09:53:49 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-639.jpg exists
+2022-09-26 09:53:49 :: INFO :: Elapsed : 77 s, processed 0 fps, [621, 624, 627, 630, 633, 636, 639]
+2022-09-26 09:53:49 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-645.jpg exists
+2022-09-26 09:53:49 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-648.jpg exists
+2022-09-26 09:53:50 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-651.jpg exists
+2022-09-26 09:53:50 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-654.jpg exists
+2022-09-26 09:53:50 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-657.jpg exists
+2022-09-26 09:53:50 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-660.jpg exists
+2022-09-26 09:53:50 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-663.jpg exists
+2022-09-26 09:53:50 :: INFO :: Elapsed : 78 s, processed 0 fps, [645, 648, 651, 654, 657, 660, 663]
+2022-09-26 09:53:50 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-666.jpg exists
+2022-09-26 09:53:50 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-669.jpg exists
+2022-09-26 09:53:50 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-672.jpg exists
+2022-09-26 09:53:51 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-675.jpg exists
+2022-09-26 09:53:51 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-678.jpg exists
+2022-09-26 09:53:51 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-681.jpg exists
+2022-09-26 09:53:51 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-684.jpg exists
+2022-09-26 09:53:51 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-687.jpg exists
+2022-09-26 09:53:51 :: INFO :: Elapsed : 79 s, processed 0 fps, [666, 669, 672, 675, 678, 681, 684, 687]
+2022-09-26 09:53:51 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-690.jpg exists
+2022-09-26 09:53:51 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-693.jpg exists
+2022-09-26 09:53:51 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-696.jpg exists
+2022-09-26 09:53:52 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-699.jpg exists
+2022-09-26 09:53:52 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-702.jpg exists
+2022-09-26 09:53:52 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-705.jpg exists
+2022-09-26 09:53:52 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-708.jpg exists
+2022-09-26 09:53:52 :: INFO :: Elapsed : 80 s, processed 0 fps, [690, 693, 696, 699, 702, 705, 708]
+2022-09-26 09:53:52 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-711.jpg exists
+2022-09-26 09:53:52 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-714.jpg exists
+2022-09-26 09:53:52 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-717.jpg exists
+2022-09-26 09:53:53 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-720.jpg exists
+2022-09-26 09:53:53 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-723.jpg exists
+2022-09-26 09:53:53 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-726.jpg exists
+2022-09-26 09:53:53 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-729.jpg exists
+2022-09-26 09:53:53 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-732.jpg exists
+2022-09-26 09:53:53 :: INFO :: Elapsed : 81 s, processed 0 fps, [711, 714, 717, 720, 723, 726, 729, 732]
+2022-09-26 09:53:53 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-735.jpg exists
+2022-09-26 09:53:53 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-738.jpg exists
+2022-09-26 09:53:54 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-741.jpg exists
+2022-09-26 09:53:54 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-744.jpg exists
+2022-09-26 09:53:54 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-747.jpg exists
+2022-09-26 09:53:54 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-750.jpg exists
+2022-09-26 09:53:54 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-753.jpg exists
+2022-09-26 09:53:54 :: INFO :: Elapsed : 82 s, processed 0 fps, [735, 738, 741, 744, 747, 750, 753]
+2022-09-26 09:53:54 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-756.jpg exists
+2022-09-26 09:53:54 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-759.jpg exists
+2022-09-26 09:53:54 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-762.jpg exists
+2022-09-26 09:53:55 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-765.jpg exists
+2022-09-26 09:53:55 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-768.jpg exists
+2022-09-26 09:53:55 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-771.jpg exists
+2022-09-26 09:53:55 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-774.jpg exists
+2022-09-26 09:53:55 :: INFO :: Elapsed : 83 s, processed 0 fps, [756, 759, 762, 765, 768, 771, 774]
+2022-09-26 09:53:55 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-777.jpg exists
+2022-09-26 09:53:55 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-780.jpg exists
+2022-09-26 09:53:55 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-783.jpg exists
+2022-09-26 09:53:56 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-786.jpg exists
+2022-09-26 09:53:56 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-789.jpg exists
+2022-09-26 09:53:56 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-792.jpg exists
+2022-09-26 09:53:56 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-795.jpg exists
+2022-09-26 09:53:56 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-798.jpg exists
+2022-09-26 09:53:56 :: INFO :: Elapsed : 84 s, processed 0 fps, [777, 780, 783, 786, 789, 792, 795, 798]
+2022-09-26 09:53:56 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-801.jpg exists
+2022-09-26 09:53:56 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-804.jpg exists
+2022-09-26 09:53:56 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-807.jpg exists
+2022-09-26 09:53:57 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-810.jpg exists
+2022-09-26 09:53:57 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-813.jpg exists
+2022-09-26 09:53:57 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-816.jpg exists
+2022-09-26 09:53:57 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-819.jpg exists
+2022-09-26 09:53:57 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-822.jpg exists
+2022-09-26 09:53:57 :: INFO :: Elapsed : 85 s, processed 0 fps, [801, 804, 807, 810, 813, 816, 819, 822]
+2022-09-26 09:53:57 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-825.jpg exists
+2022-09-26 09:53:57 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-828.jpg exists
+2022-09-26 09:53:57 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-831.jpg exists
+2022-09-26 09:53:58 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-834.jpg exists
+2022-09-26 09:53:58 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-837.jpg exists
+2022-09-26 09:53:58 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-840.jpg exists
+2022-09-26 09:53:58 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-843.jpg exists
+2022-09-26 09:53:58 :: INFO :: Elapsed : 86 s, processed 0 fps, [825, 828, 831, 834, 837, 840, 843]
+2022-09-26 09:53:58 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-846.jpg exists
+2022-09-26 09:53:58 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-849.jpg exists
+2022-09-26 09:53:58 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-852.jpg exists
+2022-09-26 09:53:59 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-855.jpg exists
+2022-09-26 09:53:59 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-858.jpg exists
+2022-09-26 09:53:59 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-861.jpg exists
+2022-09-26 09:53:59 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-864.jpg exists
+2022-09-26 09:53:59 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-867.jpg exists
+2022-09-26 09:53:59 :: INFO :: Elapsed : 87 s, processed 0 fps, [846, 849, 852, 855, 858, 861, 864, 867]
+2022-09-26 09:53:59 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-870.jpg exists
+2022-09-26 09:53:59 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-873.jpg exists
+2022-09-26 09:53:59 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-876.jpg exists
+2022-09-26 09:54:00 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-879.jpg exists
+2022-09-26 09:54:00 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-882.jpg exists
+2022-09-26 09:54:00 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-885.jpg exists
+2022-09-26 09:54:00 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-888.jpg exists
+2022-09-26 09:54:00 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-891.jpg exists
+2022-09-26 09:54:00 :: INFO :: Elapsed : 88 s, processed 0 fps, [870, 873, 876, 879, 882, 885, 888, 891]
+2022-09-26 09:54:00 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-894.jpg exists
+2022-09-26 09:54:00 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-897.jpg exists
+2022-09-26 09:54:01 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-900.jpg exists
+2022-09-26 09:54:01 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-903.jpg exists
+2022-09-26 09:54:01 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-906.jpg exists
+2022-09-26 09:54:01 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-909.jpg exists
+2022-09-26 09:54:01 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-912.jpg exists
+2022-09-26 09:54:01 :: INFO :: Elapsed : 89 s, processed 0 fps, [894, 897, 900, 903, 906, 909, 912]
+2022-09-26 09:54:01 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-915.jpg exists
+2022-09-26 09:54:01 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-918.jpg exists
+2022-09-26 09:54:01 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-921.jpg exists
+2022-09-26 09:54:02 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-924.jpg exists
+2022-09-26 09:54:02 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-927.jpg exists
+2022-09-26 09:54:02 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-930.jpg exists
+2022-09-26 09:54:02 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-933.jpg exists
+2022-09-26 09:54:02 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-936.jpg exists
+2022-09-26 09:54:02 :: INFO :: Elapsed : 90 s, processed 0 fps, [915, 918, 921, 924, 927, 930, 933, 936]
+2022-09-26 09:54:02 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-939.jpg exists
+2022-09-26 09:54:02 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-942.jpg exists
+2022-09-26 09:54:02 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-945.jpg exists
+2022-09-26 09:54:03 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-948.jpg exists
+2022-09-26 09:54:03 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-951.jpg exists
+2022-09-26 09:54:03 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-954.jpg exists
+2022-09-26 09:54:03 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-957.jpg exists
+2022-09-26 09:54:03 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-960.jpg exists
+2022-09-26 09:54:03 :: INFO :: Elapsed : 91 s, processed 0 fps, [939, 942, 945, 948, 951, 954, 957, 960]
+2022-09-26 09:54:03 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-963.jpg exists
+2022-09-26 09:54:03 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-966.jpg exists
+2022-09-26 09:54:04 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-972.jpg exists
+2022-09-26 09:54:04 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-975.jpg exists
+2022-09-26 09:54:04 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-978.jpg exists
+2022-09-26 09:54:04 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-981.jpg exists
+2022-09-26 09:54:04 :: INFO :: Elapsed : 92 s, processed 0 fps, [963, 966, 972, 975, 978, 981]
+2022-09-26 09:54:04 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-984.jpg exists
+2022-09-26 09:54:04 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-987.jpg exists
+2022-09-26 09:54:04 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-990.jpg exists
+2022-09-26 09:54:05 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-993.jpg exists
+2022-09-26 09:54:05 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-996.jpg exists
+2022-09-26 09:54:05 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-999.jpg exists
+2022-09-26 09:54:05 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1002.jpg exists
+2022-09-26 09:54:05 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1005.jpg exists
+2022-09-26 09:54:05 :: INFO :: Elapsed : 93 s, processed 0 fps, [984, 987, 990, 993, 996, 999, 1002, 1005]
+2022-09-26 09:54:05 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1008.jpg exists
+2022-09-26 09:54:05 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1010.jpg exists
+2022-09-26 09:54:05 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1013.jpg exists
+2022-09-26 09:54:06 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1016.jpg exists
+2022-09-26 09:54:06 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1019.jpg exists
+2022-09-26 09:54:06 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1022.jpg exists
+2022-09-26 09:54:06 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1025.jpg exists
+2022-09-26 09:54:06 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1028.jpg exists
+2022-09-26 09:54:06 :: INFO :: Elapsed : 94 s, processed 0 fps, [1008, 1010, 1013, 1016, 1019, 1022, 1025, 1028]
+2022-09-26 09:54:06 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1031.jpg exists
+2022-09-26 09:54:06 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1034.jpg exists
+2022-09-26 09:54:06 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1037.jpg exists
+2022-09-26 09:54:07 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1040.jpg exists
+2022-09-26 09:54:07 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1043.jpg exists
+2022-09-26 09:54:07 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1046.jpg exists
+2022-09-26 09:54:07 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1049.jpg exists
+2022-09-26 09:54:07 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1052.jpg exists
+2022-09-26 09:54:07 :: INFO :: Elapsed : 95 s, processed 0 fps, [1031, 1034, 1037, 1040, 1043, 1046, 1049, 1052]
+2022-09-26 09:54:07 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1055.jpg exists
+2022-09-26 09:54:07 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1058.jpg exists
+2022-09-26 09:54:07 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1061.jpg exists
+2022-09-26 09:54:08 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1064.jpg exists
+2022-09-26 09:54:08 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1067.jpg exists
+2022-09-26 09:54:08 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1070.jpg exists
+2022-09-26 09:54:08 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1073.jpg exists
+2022-09-26 09:54:08 :: INFO :: Elapsed : 96 s, processed 0 fps, [1055, 1058, 1061, 1064, 1067, 1070, 1073]
+2022-09-26 09:54:08 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1076.jpg exists
+2022-09-26 09:54:08 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1079.jpg exists
+2022-09-26 09:54:08 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1082.jpg exists
+2022-09-26 09:54:09 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1085.jpg exists
+2022-09-26 09:54:09 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1088.jpg exists
+2022-09-26 09:54:09 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1091.jpg exists
+2022-09-26 09:54:09 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1094.jpg exists
+2022-09-26 09:54:09 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1097.jpg exists
+2022-09-26 09:54:09 :: INFO :: Elapsed : 97 s, processed 0 fps, [1076, 1079, 1082, 1085, 1088, 1091, 1094, 1097]
+2022-09-26 09:54:09 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1100.jpg exists
+2022-09-26 09:54:09 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1103.jpg exists
+2022-09-26 09:54:09 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1106.jpg exists
+2022-09-26 09:54:10 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1109.jpg exists
+2022-09-26 09:54:10 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1112.jpg exists
+2022-09-26 09:54:10 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1115.jpg exists
+2022-09-26 09:54:10 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1118.jpg exists
+2022-09-26 09:54:10 :: INFO :: Elapsed : 98 s, processed 0 fps, [1100, 1103, 1106, 1109, 1112, 1115, 1118]
+2022-09-26 09:54:10 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1121.jpg exists
+2022-09-26 09:54:10 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-1124.jpg exists
+2022-09-26 09:54:10 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-0.jpg exists
+2022-09-26 09:54:11 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-3.jpg exists
+2022-09-26 09:54:11 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-6.jpg exists
+2022-09-26 09:54:11 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-9.jpg exists
+2022-09-26 09:54:11 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-12.jpg exists
+2022-09-26 09:54:11 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-15.jpg exists
+2022-09-26 09:54:11 :: INFO :: Elapsed : 99 s, processed 0 fps, [1121, 1124, 0, 3, 6, 9, 12, 15]
+2022-09-26 09:54:11 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-18.jpg exists
+2022-09-26 09:54:11 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-21.jpg exists
+2022-09-26 09:54:12 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-24.jpg exists
+2022-09-26 09:54:12 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-27.jpg exists
+2022-09-26 09:54:12 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-30.jpg exists
+2022-09-26 09:54:12 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-33.jpg exists
+2022-09-26 09:54:12 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-36.jpg exists
+2022-09-26 09:54:12 :: INFO :: Elapsed : 100 s, processed 0 fps, [18, 21, 24, 27, 30, 33, 36]
+2022-09-26 09:54:12 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-39.jpg exists
+2022-09-26 09:54:12 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-42.jpg exists
+2022-09-26 09:54:12 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-45.jpg exists
+2022-09-26 09:54:13 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-48.jpg exists
+2022-09-26 09:54:13 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-51.jpg exists
+2022-09-26 09:54:13 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-53.jpg exists
+2022-09-26 09:54:13 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-56.jpg exists
+2022-09-26 09:54:13 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-59.jpg exists
+2022-09-26 09:54:13 :: INFO :: Elapsed : 101 s, processed 0 fps, [39, 42, 45, 48, 51, 53, 56, 59]
+2022-09-26 09:54:13 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-62.jpg exists
+2022-09-26 09:54:13 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-64.jpg exists
+2022-09-26 09:54:13 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-67.jpg exists
+2022-09-26 09:54:14 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-70.jpg exists
+2022-09-26 09:54:14 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-73.jpg exists
+2022-09-26 09:54:14 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-76.jpg exists
+2022-09-26 09:54:14 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-79.jpg exists
+2022-09-26 09:54:14 :: INFO :: Elapsed : 102 s, processed 0 fps, [62, 64, 67, 70, 73, 76, 79]
+2022-09-26 09:54:14 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-82.jpg exists
+2022-09-26 09:54:14 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-85.jpg exists
+2022-09-26 09:54:14 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-88.jpg exists
+2022-09-26 09:54:15 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-91.jpg exists
+2022-09-26 09:54:15 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-94.jpg exists
+2022-09-26 09:54:15 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-97.jpg exists
+2022-09-26 09:54:15 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-100.jpg exists
+2022-09-26 09:54:15 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-103.jpg exists
+2022-09-26 09:54:15 :: INFO :: Elapsed : 103 s, processed 0 fps, [82, 85, 88, 91, 94, 97, 100, 103]
+2022-09-26 09:54:15 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-106.jpg exists
+2022-09-26 09:54:15 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-109.jpg exists
+2022-09-26 09:54:15 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-112.jpg exists
+2022-09-26 09:54:16 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-115.jpg exists
+2022-09-26 09:54:16 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-118.jpg exists
+2022-09-26 09:54:16 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-121.jpg exists
+2022-09-26 09:54:16 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-124.jpg exists
+2022-09-26 09:54:16 :: INFO :: Elapsed : 104 s, processed 0 fps, [106, 109, 112, 115, 118, 121, 124]
+2022-09-26 09:54:16 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-127.jpg exists
+2022-09-26 09:54:16 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-130.jpg exists
+2022-09-26 09:54:16 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-133.jpg exists
+2022-09-26 09:54:17 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-136.jpg exists
+2022-09-26 09:54:17 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-139.jpg exists
+2022-09-26 09:54:17 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-142.jpg exists
+2022-09-26 09:54:17 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-145.jpg exists
+2022-09-26 09:54:17 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-148.jpg exists
+2022-09-26 09:54:17 :: INFO :: Elapsed : 105 s, processed 0 fps, [127, 130, 133, 136, 139, 142, 145, 148]
+2022-09-26 09:54:17 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-151.jpg exists
+2022-09-26 09:54:17 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-154.jpg exists
+2022-09-26 09:54:17 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-157.jpg exists
+2022-09-26 09:54:18 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-160.jpg exists
+2022-09-26 09:54:18 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-163.jpg exists
+2022-09-26 09:54:18 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-166.jpg exists
+2022-09-26 09:54:18 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-169.jpg exists
+2022-09-26 09:54:18 :: INFO :: Elapsed : 106 s, processed 0 fps, [151, 154, 157, 160, 163, 166, 169]
+2022-09-26 09:54:18 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-172.jpg exists
+2022-09-26 09:54:18 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-175.jpg exists
+2022-09-26 09:54:18 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-177.jpg exists
+2022-09-26 09:54:19 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-180.jpg exists
+2022-09-26 09:54:19 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-183.jpg exists
+2022-09-26 09:54:19 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-186.jpg exists
+2022-09-26 09:54:19 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-189.jpg exists
+2022-09-26 09:54:19 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-192.jpg exists
+2022-09-26 09:54:19 :: INFO :: Elapsed : 107 s, processed 0 fps, [172, 175, 177, 180, 183, 186, 189, 192]
+2022-09-26 09:54:19 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-195.jpg exists
+2022-09-26 09:54:19 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-198.jpg exists
+2022-09-26 09:54:19 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-201.jpg exists
+2022-09-26 09:54:20 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-204.jpg exists
+2022-09-26 09:54:20 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-207.jpg exists
+2022-09-26 09:54:20 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-210.jpg exists
+2022-09-26 09:54:20 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-213.jpg exists
+2022-09-26 09:54:20 :: INFO :: Elapsed : 108 s, processed 0 fps, [195, 198, 201, 204, 207, 210, 213]
+2022-09-26 09:54:20 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-216.jpg exists
+2022-09-26 09:54:20 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-219.jpg exists
+2022-09-26 09:54:20 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-222.jpg exists
+2022-09-26 09:54:21 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-225.jpg exists
+2022-09-26 09:54:21 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-228.jpg exists
+2022-09-26 09:54:21 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-231.jpg exists
+2022-09-26 09:54:21 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-234.jpg exists
+2022-09-26 09:54:21 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-237.jpg exists
+2022-09-26 09:54:21 :: INFO :: Elapsed : 109 s, processed 0 fps, [216, 219, 222, 225, 228, 231, 234, 237]
+2022-09-26 09:54:21 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-240.jpg exists
+2022-09-26 09:54:21 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-243.jpg exists
+2022-09-26 09:54:21 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-246.jpg exists
+2022-09-26 09:54:22 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-249.jpg exists
+2022-09-26 09:54:22 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-252.jpg exists
+2022-09-26 09:54:22 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-255.jpg exists
+2022-09-26 09:54:22 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-258.jpg exists
+2022-09-26 09:54:22 :: INFO :: Elapsed : 110 s, processed 0 fps, [240, 243, 246, 249, 252, 255, 258]
+2022-09-26 09:54:22 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-261.jpg exists
+2022-09-26 09:54:22 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-264.jpg exists
+2022-09-26 09:54:22 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-267.jpg exists
+2022-09-26 09:54:23 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-270.jpg exists
+2022-09-26 09:54:23 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-273.jpg exists
+2022-09-26 09:54:23 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-276.jpg exists
+2022-09-26 09:54:23 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-279.jpg exists
+2022-09-26 09:54:23 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-282.jpg exists
+2022-09-26 09:54:23 :: INFO :: Elapsed : 111 s, processed 0 fps, [261, 264, 267, 270, 273, 276, 279, 282]
+2022-09-26 09:54:23 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-285.jpg exists
+2022-09-26 09:54:23 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-288.jpg exists
+2022-09-26 09:54:24 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-291.jpg exists
+2022-09-26 09:54:24 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-294.jpg exists
+2022-09-26 09:54:24 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-297.jpg exists
+2022-09-26 09:54:24 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-300.jpg exists
+2022-09-26 09:54:24 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-303.jpg exists
+2022-09-26 09:54:24 :: INFO :: Elapsed : 112 s, processed 0 fps, [285, 288, 291, 294, 297, 300, 303]
+2022-09-26 09:54:24 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-306.jpg exists
+2022-09-26 09:54:24 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-309.jpg exists
+2022-09-26 09:54:24 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-312.jpg exists
+2022-09-26 09:54:25 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-315.jpg exists
+2022-09-26 09:54:25 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-318.jpg exists
+2022-09-26 09:54:25 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-323.jpg exists
+2022-09-26 09:54:25 :: INFO :: Elapsed : 113 s, processed 0 fps, [306, 309, 312, 315, 318, 323]
+2022-09-26 09:54:25 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-326.jpg exists
+2022-09-26 09:54:25 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-329.jpg exists
+2022-09-26 09:54:25 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-332.jpg exists
+2022-09-26 09:54:26 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-335.jpg exists
+2022-09-26 09:54:26 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-338.jpg exists
+2022-09-26 09:54:26 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-341.jpg exists
+2022-09-26 09:54:26 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-344.jpg exists
+2022-09-26 09:54:26 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-347.jpg exists
+2022-09-26 09:54:26 :: INFO :: Elapsed : 114 s, processed 0 fps, [326, 329, 332, 335, 338, 341, 344, 347]
+2022-09-26 09:54:26 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-350.jpg exists
+2022-09-26 09:54:26 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-353.jpg exists
+2022-09-26 09:54:26 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-356.jpg exists
+2022-09-26 09:54:27 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-359.jpg exists
+2022-09-26 09:54:27 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-362.jpg exists
+2022-09-26 09:54:27 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-365.jpg exists
+2022-09-26 09:54:27 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-368.jpg exists
+2022-09-26 09:54:27 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-371.jpg exists
+2022-09-26 09:54:27 :: INFO :: Elapsed : 115 s, processed 0 fps, [350, 353, 356, 359, 362, 365, 368, 371]
+2022-09-26 09:54:27 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-374.jpg exists
+2022-09-26 09:54:27 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-377.jpg exists
+2022-09-26 09:54:27 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-380.jpg exists
+2022-09-26 09:54:28 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-383.jpg exists
+2022-09-26 09:54:28 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-386.jpg exists
+2022-09-26 09:54:28 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-389.jpg exists
+2022-09-26 09:54:28 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-392.jpg exists
+2022-09-26 09:54:28 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-395.jpg exists
+2022-09-26 09:54:28 :: INFO :: Elapsed : 116 s, processed 0 fps, [374, 377, 380, 383, 386, 389, 392, 395]
+2022-09-26 09:54:28 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-398.jpg exists
+2022-09-26 09:54:28 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-401.jpg exists
+2022-09-26 09:54:28 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-404.jpg exists
+2022-09-26 09:54:29 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-407.jpg exists
+2022-09-26 09:54:29 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-410.jpg exists
+2022-09-26 09:54:29 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-413.jpg exists
+2022-09-26 09:54:29 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-416.jpg exists
+2022-09-26 09:54:29 :: INFO :: Elapsed : 117 s, processed 0 fps, [398, 401, 404, 407, 410, 413, 416]
+2022-09-26 09:54:29 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-419.jpg exists
+2022-09-26 09:54:29 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-422.jpg exists
+2022-09-26 09:54:29 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-425.jpg exists
+2022-09-26 09:54:30 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-428.jpg exists
+2022-09-26 09:54:30 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-431.jpg exists
+2022-09-26 09:54:30 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-434.jpg exists
+2022-09-26 09:54:30 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-437.jpg exists
+2022-09-26 09:54:30 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-440.jpg exists
+2022-09-26 09:54:30 :: INFO :: Elapsed : 118 s, processed 0 fps, [419, 422, 425, 428, 431, 434, 437, 440]
+2022-09-26 09:54:30 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-443.jpg exists
+2022-09-26 09:54:30 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-446.jpg exists
+2022-09-26 09:54:30 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-449.jpg exists
+2022-09-26 09:54:31 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-452.jpg exists
+2022-09-26 09:54:31 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-455.jpg exists
+2022-09-26 09:54:31 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-458.jpg exists
+2022-09-26 09:54:31 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-461.jpg exists
+2022-09-26 09:54:31 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-464.jpg exists
+2022-09-26 09:54:31 :: INFO :: Elapsed : 119 s, processed 0 fps, [443, 446, 449, 452, 455, 458, 461, 464]
+2022-09-26 09:54:31 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-467.jpg exists
+2022-09-26 09:54:31 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-470.jpg exists
+2022-09-26 09:54:31 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-473.jpg exists
+2022-09-26 09:54:32 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-476.jpg exists
+2022-09-26 09:54:32 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-479.jpg exists
+2022-09-26 09:54:32 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-482.jpg exists
+2022-09-26 09:54:32 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-485.jpg exists
+2022-09-26 09:54:32 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-488.jpg exists
+2022-09-26 09:54:32 :: INFO :: Elapsed : 120 s, processed 0 fps, [467, 470, 473, 476, 479, 482, 485, 488]
+2022-09-26 09:54:32 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-491.jpg exists
+2022-09-26 09:54:32 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-494.jpg exists
+2022-09-26 09:54:33 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-497.jpg exists
+2022-09-26 09:54:33 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-500.jpg exists
+2022-09-26 09:54:33 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-503.jpg exists
+2022-09-26 09:54:33 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-506.jpg exists
+2022-09-26 09:54:33 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-509.jpg exists
+2022-09-26 09:54:33 :: INFO :: Elapsed : 121 s, processed 0 fps, [491, 494, 497, 500, 503, 506, 509]
+2022-09-26 09:54:33 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-512.jpg exists
+2022-09-26 09:54:33 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-515.jpg exists
+2022-09-26 09:54:33 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-518.jpg exists
+2022-09-26 09:54:34 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-521.jpg exists
+2022-09-26 09:54:34 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-524.jpg exists
+2022-09-26 09:54:34 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-527.jpg exists
+2022-09-26 09:54:34 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-530.jpg exists
+2022-09-26 09:54:34 :: INFO :: Elapsed : 122 s, processed 0 fps, [512, 515, 518, 521, 524, 527, 530]
+2022-09-26 09:54:34 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-532.jpg exists
+2022-09-26 09:54:34 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-535.jpg exists
+2022-09-26 09:54:34 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-538.jpg exists
+2022-09-26 09:54:35 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-544.jpg exists
+2022-09-26 09:54:35 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-550.jpg exists
+2022-09-26 09:54:35 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-555.jpg exists
+2022-09-26 09:54:35 :: INFO :: Elapsed : 123 s, processed 0 fps, [532, 535, 538, 544, 550, 555]
+2022-09-26 09:54:35 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-560.jpg exists
+2022-09-26 09:54:36 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-563.jpg exists
+2022-09-26 09:54:36 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-566.jpg exists
+2022-09-26 09:54:36 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-569.jpg exists
+2022-09-26 09:54:36 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-572.jpg exists
+2022-09-26 09:54:36 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-575.jpg exists
+2022-09-26 09:54:36 :: INFO :: Elapsed : 124 s, processed 0 fps, [560, 563, 566, 569, 572, 575]
+2022-09-26 09:54:36 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-578.jpg exists
+2022-09-26 09:54:36 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-581.jpg exists
+2022-09-26 09:54:37 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-584.jpg exists
+2022-09-26 09:54:37 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-587.jpg exists
+2022-09-26 09:54:37 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-590.jpg exists
+2022-09-26 09:54:37 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-593.jpg exists
+2022-09-26 09:54:37 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-596.jpg exists
+2022-09-26 09:54:37 :: INFO :: Elapsed : 125 s, processed 0 fps, [578, 581, 584, 587, 590, 593, 596]
+2022-09-26 09:54:37 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-598.jpg exists
+2022-09-26 09:54:37 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-601.jpg exists
+2022-09-26 09:54:37 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-604.jpg exists
+2022-09-26 09:54:38 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-607.jpg exists
+2022-09-26 09:54:38 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-610.jpg exists
+2022-09-26 09:54:38 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-613.jpg exists
+2022-09-26 09:54:38 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-616.jpg exists
+2022-09-26 09:54:38 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-619.jpg exists
+2022-09-26 09:54:38 :: INFO :: Elapsed : 126 s, processed 0 fps, [598, 601, 604, 607, 610, 613, 616, 619]
+2022-09-26 09:54:38 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-622.jpg exists
+2022-09-26 09:54:38 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-625.jpg exists
+2022-09-26 09:54:38 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-628.jpg exists
+2022-09-26 09:54:39 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-631.jpg exists
+2022-09-26 09:54:39 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-634.jpg exists
+2022-09-26 09:54:39 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-637.jpg exists
+2022-09-26 09:54:39 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-640.jpg exists
+2022-09-26 09:54:39 :: INFO :: Elapsed : 127 s, processed 0 fps, [622, 625, 628, 631, 634, 637, 640]
+2022-09-26 09:54:39 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-643.jpg exists
+2022-09-26 09:54:39 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-646.jpg exists
+2022-09-26 09:54:39 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-649.jpg exists
+2022-09-26 09:54:40 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-652.jpg exists
+2022-09-26 09:54:40 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-655.jpg exists
+2022-09-26 09:54:40 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-658.jpg exists
+2022-09-26 09:54:40 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-661.jpg exists
+2022-09-26 09:54:40 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-664.jpg exists
+2022-09-26 09:54:40 :: INFO :: Elapsed : 128 s, processed 0 fps, [643, 646, 649, 652, 655, 658, 661, 664]
+2022-09-26 09:54:40 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-667.jpg exists
+2022-09-26 09:54:40 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-670.jpg exists
+2022-09-26 09:54:41 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-676.jpg exists
+2022-09-26 09:54:41 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-679.jpg exists
+2022-09-26 09:54:41 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-681.jpg exists
+2022-09-26 09:54:41 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-687.jpg exists
+2022-09-26 09:54:41 :: INFO :: Elapsed : 129 s, processed 0 fps, [667, 670, 676, 679, 681, 687]
+2022-09-26 09:54:41 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-690.jpg exists
+2022-09-26 09:54:41 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-693.jpg exists
+2022-09-26 09:54:42 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-696.jpg exists
+2022-09-26 09:54:42 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-698.jpg exists
+2022-09-26 09:54:42 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-701.jpg exists
+2022-09-26 09:54:42 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-704.jpg exists
+2022-09-26 09:54:42 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-707.jpg exists
+2022-09-26 09:54:42 :: INFO :: Elapsed : 130 s, processed 0 fps, [690, 693, 696, 698, 701, 704, 707]
+2022-09-26 09:54:42 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-710.jpg exists
+2022-09-26 09:54:42 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-713.jpg exists
+2022-09-26 09:54:42 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-716.jpg exists
+2022-09-26 09:54:43 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-719.jpg exists
+2022-09-26 09:54:43 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-722.jpg exists
+2022-09-26 09:54:43 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-724.jpg exists
+2022-09-26 09:54:43 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-727.jpg exists
+2022-09-26 09:54:43 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-730.jpg exists
+2022-09-26 09:54:43 :: INFO :: Elapsed : 131 s, processed 0 fps, [710, 713, 716, 719, 722, 724, 727, 730]
+2022-09-26 09:54:43 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-733.jpg exists
+2022-09-26 09:54:43 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-736.jpg exists
+2022-09-26 09:54:43 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-739.jpg exists
+2022-09-26 09:54:44 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-742.jpg exists

@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style2.css') }}">
+
+    <meta charset="UTF-8">
+    <title>HPE Ezmeral Demo - Cloud Dashboard</title>
+</head>
+
+<script type="text/javascript">
+                var intervalID = setInterval(update_values,1000);
+
+                $(function() {
+                  $(".selectable").selectable({
+                    selected: function() {
+                      var selectedItemList = $("#selected-item-list").empty();
+                      $(".selectable img").each(function(index) {
+                        if ($(this).hasClass("ui-selected")) {
+                          selectedItemList.append((index + 1) + ", ");
+                        }
+                      });
+                    }
+                  });
+                });
+
+                 function startStream(){
+
+                 intervalID = setInterval(update_values,1000);
+                 }
+
+
+                $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+                function update_values() {
+                        $.getJSON($SCRIPT_ROOT + '/_stuff',
+
+                    function(data) {
+                        var line = document.getElementById("images");
+                        line.innerHTML = ""
+                        var numArray = data.b;
+                        var dataPath = data.path;
+                        for (i = 1, n = numArray.length; i < n; i++) {
+                            image = dataPath + "frame_" + numArray[i] + ".jpg"
+                            line.innerHTML += "<img class='ui-widget-content' style='width: 5%;' src='"+image+"'/>"
+                        }
+
+
+                        console.log(data)
+                    });
+
+                    $.getJSON($SCRIPT_ROOT + '/_stuff2',
+
+                    function(data) {
+                        var line = document.getElementById("images2");
+                        line.innerHTML = ""
+                        var numArray = data.c;
+                        var dataPath = data.path;
+                        for (i = 1, n = numArray.length; i < n; i++) {
+                            image = dataPath + "frame_" + numArray[i] + ".jpg"
+                            line.innerHTML += "<img class='ui-widget-content' style='width: 5%;' src='"+image+"'/>"
+                        }
+
+
+                        console.log(data)
+                    });
+
+                    };
+
+
+
+                    function stopTextColor() {
+                    clearInterval(intervalID);
+                    }
+
+
+
+
+</script>
+
+    <body onload="update_values();">
+
+        <h1>Cloud Demo</h1>
+        <div class="selectable" id="images">
+        </div>
+
+        <button onclick="stopTextColor();">Stop</button>
+        <button onclick="startStream();">Start</button>
+        <button>Print Image</button>
+    </body>

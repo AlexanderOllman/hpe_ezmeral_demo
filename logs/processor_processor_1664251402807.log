@@ -1,0 +1,8 @@
+2022-09-27 14:03:23 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-23.jpg exists
+2022-09-27 14:03:23 :: INFO :: Waiting for previous frame to complete - Current offset : 2, Last committed offset : 0
+2022-09-27 14:03:23 :: INFO :: Wait time : 0.03783869743347168
+2022-09-27 14:03:23 :: INFO :: Elapsed : 1 s, processed 0 fps, [23]
+2022-09-27 14:03:26 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-109.jpg exists
+2022-09-27 14:03:26 :: INFO :: Elapsed : 4 s, processed 0 fps, [109]
+2022-09-27 14:03:30 :: INFO :: /mapr/edge1.enterprise.org/projects/teits/data/images/drone_1/source/frame-194.jpg exists
+2022-09-27 14:03:30 :: INFO :: Elapsed : 8 s, processed 0 fps, [194]

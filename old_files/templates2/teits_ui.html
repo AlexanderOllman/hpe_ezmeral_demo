@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HPE: Eye In The Sky</title>
+  <link rel="stylesheet" href="{{url_for('static', filename='jquery-ui.css')}}">
+  <link rel="stylesheet" href="{{url_for('static', filename='bootstrap.min.css')}}">
+  <link rel="stylesheet" href="{{url_for('static', filename='teits.css')}}">
+</head>
+<body>
+  <span id="active_drones" number={{active_drones}}></span>
+  <div id="main" class="row h-100">
+      <div class="col-2">
+        <div class="sidenav">
+          <a href="#" id="new_drone_button">New Drone</a>
+          <a href="#" id="architecture_button">Architecture</a>
+          <button class="dropdown-btn dropdown-toggle" >Actions</button>
+          <div class="dropdown-container">
+            <a href="#" id="patrol_button">Patrol</a>
+            <a href="#" id="back_home_button">Back Home</a>
+            <a href="#" id="counter_clockwise360_button">Counter Clockwise 360</a>
+            <a href="#" id="clockwise360_button">Clockwise 360</a>
+<!-- 
+            <a href="#" id="up_button">Up</a>
+            <a href="#" id="down_button">Down</a>
+            <a href="#" id="left_button">Left</a>
+            <a href="#" id="right_button">Right</a>
+            <a href="#" id="forward_button">Forward</a>
+            <a href="#" id="backward_button">Barkward</a>
+ -->
+            <a href="#" id="land_button">Land</a>
+            <a href="#" id="reset_button">Reset</a>
+          </div>
+          <button class="dropdown-btn dropdown-toggle" >Display</button>
+          <div class="dropdown-container" id="source_selector" display="{{display}}">
+            <a href="#" id="source_display">Source  <img id="source_tick" src="{{url_for('static', filename='tick.png')}}"></a>
+            <a href="#" id="processed_display">Processed  <img id="processed_tick" src="{{url_for('static', filename='tick.png')}}"></a>
+          </div>
+          <a href="/edit" id="edit_button">Edit</a>
+          <a href="/recorder" id="recorder_button">Recorder</a>
+        </div>
+      </div>
+      <div class="col-5" >
+              <img src="{{ url_for('video_feed') }}" width="100%">
+	      <div class="row" id="main_map">
+          
+          {% for zone in zones %}
+            <div class="border-visible drop zone"
+                 id="{{zone._id}}" 
+                 style="position: absolute; height:{{zone.height}}%;width: {{zone.width}}%; top:{{zone.top}}%;left:{{zone.left}}%">
+            </div>
+          {% endfor %}
+
+          {% for drone in drones %}
+            <div class=" drag drone" id="{{drone}}"></div>
+          {% endfor %}
+
+        </div>
+        <div class="row" drone_id="global">
+          <div class="col-4" id="global_count"></div>
+          <div class="col-8" id="global_count_graph"></div>
+        </div>
+      </div>
+      <div class="col-1"></div>
+      <div class="col-4" id="control_panel">
+        {% for drone in drones %}
+        <div class="row drone_ui" id="{{drone}}_ui" drone_id="{{drone}}">
+            <div class="drone_info" id="{{drone}}_info"></div>
+            <div class="count" id="{{drone}}_count"></div>
+            <div class="battery_pct" id="{{drone}}_battery"></div>
+            <div class="battery_gauge" id="{{drone}}_battery_gauge"></div>
+            <div class="speed" id="{{drone}}_speed"></div>
+            <div class="speed_gauge" id="{{drone}}_speed_gauge"></div>
+            <div class="count_graph" id="{{drone}}_count_graph"></div>
+            <div class="connection_status blink" id="{{drone}}_connection_status"></div>
+            <div class="connection_status_video blink" id="{{drone}}_connection_status"></div>
+            <img class="drone_video" id="{{drone}}_video">
+        </div>
+        {% endfor %}
+        <div class="row">
+          <img class="archi" id="archi" src="{{url_for('static', filename='archi.png')}}">
+        </div>  
+      </div> 
+  </div>
+</body>
+
+  <script type="text/javascript" src="{{url_for('static', filename='jquery-1.12.4.js')}}"></script>
+  <script type="text/javascript" src="{{url_for('static', filename='jquery-ui.js')}}"></script>
+  <script type="text/javascript" src="{{url_for('static', filename='popper.min.js')}}"></script>
+  <script type="text/javascript" src="{{url_for('static', filename='bootstrap.min.js')}}"></script>
+  <script type="text/javascript" src="{{url_for('static', filename='highcharts.js')}}"></script>
+  <script type="text/javascript" src="{{url_for('static', filename='exporting.js')}}"></script>
+  <script type="text/javascript" src="{{url_for('static', filename='teits.js')}}"></script>
+</html>

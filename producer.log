@@ -1,0 +1,18 @@
+2022-11-04 10:29:13  * Debugger is active!
+2022-11-04 10:29:13  * Debugger PIN: 130-055-040
+2022-11-04 10:29:22 192.168.100.5 - - [04/Nov/2022 10:29:22] "GET / HTTP/1.1" 200 -
+2022-11-04 10:29:22 192.168.100.5 - - [04/Nov/2022 10:29:22] "GET /static/plugins/jqvmap/jqvmap.min.css HTTP/1.1" 200 -
+2022-11-04 10:29:22 192.168.100.5 - - [04/Nov/2022 10:29:22] "GET /static/dist/css/adminlte2.css HTTP/1.1" 200 -
+2022-11-04 10:29:22 192.168.100.5 - - [04/Nov/2022 10:29:22] "GET /static/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css HTTP/1.1" 200 -
+2022-11-04 10:29:22 192.168.100.5 - - [04/Nov/2022 10:29:22] "GET /static/plugins/icheck-bootstrap/icheck-bootstrap.min.css HTTP/1.1" 200 -
+2022-11-04 10:29:22 192.168.100.5 - - [04/Nov/2022 10:29:22] "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 -
+2022-11-04 10:29:22 192.168.100.5 - - [04/Nov/2022 10:29:22] "GET /static/plugins/daterangepicker/daterangepicker.css HTTP/1.1" 200 -
+2022-11-04 10:29:22 192.168.100.5 - - [04/Nov/2022 10:29:22] "GET /static/styles/style.css HTTP/1.1" 200 -
+2022-11-04 10:29:22 192.168.100.5 - - [04/Nov/2022 10:29:22] "GET /static/plugins/summernote/summernote-bs4.min.css HTTP/1.1" 200 -
+2022-11-04 10:29:22 192.168.100.5 - - [04/Nov/2022 10:29:22] "GET /static/img/ezmeral2.png HTTP/1.1" 200 -
+2022-11-04 10:29:22 192.168.100.5 - - [04/Nov/2022 10:29:22] "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 -
+2022-11-04 10:29:22 192.168.100.5 - - [04/Nov/2022 10:29:22] "GET /static/plugins/jquery-ui/jquery-ui.min.js HTTP/1.1" 200 -
+2022-11-04 10:29:25 192.168.100.5 - - [04/Nov/2022 10:29:25] "[33mGET /static/dist/css/fonts/MetricHPE/MetricHPE-Web-Bold.woff%22 HTTP/1.1[0m" 404 -
+2022-11-04 10:29:25 192.168.100.5 - - [04/Nov/2022 10:29:25] "GET /static/fonts/MetricHPE/MetricHPE-Web-Bold.woff HTTP/1.1" 200 -
+2022-11-04 10:29:30 192.168.100.5 - - [04/Nov/2022 10:29:30] "GET /video_feed HTTP/1.1" 200 -
+2022-11-04 10:29:30 192.168.100.5 - - [04/Nov/2022 10:29:30] "GET /video_feed HTTP/1.1" 200 -

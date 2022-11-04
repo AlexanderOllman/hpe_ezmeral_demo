@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bootstrap 4 -->
+  <link rel="stylesheet" href="{{ url_for('static',filename='plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css') }}">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="{{ url_for('static',filename='plugins/icheck-bootstrap/icheck-bootstrap.min.css') }}">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="{{ url_for('static',filename='plugins/jqvmap/jqvmap.min.css') }}">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="{{ url_for('static',filename='dist/css/adminlte2.css') }}">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="{{ url_for('static',filename='plugins/overlayScrollbars/css/OverlayScrollbars.min.css') }}">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="{{ url_for('static',filename='plugins/daterangepicker/daterangepicker.css') }}">
+  <!-- summernote -->
+  <link rel="stylesheet" href="{{ url_for('static',filename='plugins/summernote/summernote-bs4.min.css') }}">
+
+
+    <!-- Bootstrap CSS -->
+
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+    <title>Live Streaming Demonstration</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8  offset-lg-2">
+
+            <div class="row">
+         <!--   <img class="col-md-4" src="{{ url_for('static',filename='img/ezmeral.png') }}">
+            <h2 class="col-md-8 my-auto">HPE Ezmeral Data Fabric Edge</h2> -->
+	    <div class="col-2"></div>
+           <div class="col-8">
+	<img class="img-fluid"  src="{{ url_for('static',filename='img/ezmeral2.png') }}">
+	</div>
+           <div class="col-2"></div>
+
+            </div>
+            <img class="mb-3"  src="{{ url_for('video_feed') }}" width="100%">
+	    
+	<button id="start" class="btn btn-success" type="button">Start</button>
+            <button id="stop" class="btn btn-danger" type="button">Stop</button>        
+</div>
+    </div>
+</div>
+</body>
+
+<!-- jQuery -->
+
+<!-- jQuery -->
+<script src="{{ url_for('static',filename='plugins/jquery/jquery.min.js') }}"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="{{ url_for('static',filename='plugins/jquery-ui/jquery-ui.min.js') }}"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+
+<script type=text/javascript>
+        $(function() {
+          $("#start").click(function(){
+            $.getJSON('/startRobot',
+                function(data) {
+              //do nothing
+            });
+            return false;
+          });
+        });
+
+        $(function() {
+          $("#stop").click(function(){
+            $.getJSON('/stopRobot',
+                function(data) {
+              //do nothing
+            });
+            return false;
+          });
+        });
+
+//fullscreen function
+			$(".fullscreen").click(function(){
+				x = $(this).find("a>i").attr("class") ;
+				if(x == "fas fa-expand-arrows-alt")
+				{
+					showFullscreen(document.documentElement);
+					$(this).find("a").html('<i class="fas fa-compress-arrows-alt" data-toggle="tooltip" title="Exit Fullscreen" data-placement="bottom"></i>');
+				}else{
+					exitFullscreen();
+					$(this).find("a").html('<i class="fas fa-expand-arrows-alt" data-toggle="tooltip" title="Fullscreen" data-placement="bottom"></i>');
+				}
+			});
+			//Fullscreen Function
+			function showFullscreen(element) {
+				if(element.showFullscreen) {
+					element.showFullscreen();
+				} else if(element.mozRequestFullScreen) {
+					element.mozRequestFullScreen();
+				} else if(element.webkitRequestFullscreen) {
+					element.webkitRequestFullscreen();
+				} else if(element.msRequestFullscreen) {
+					element.msRequestFullscreen();
+				}
+			}
+			//Exit Fullscreen Function
+			function exitFullscreen() {
+				if(document.exitFullscreen) {
+					document.exitFullscreen();
+				} else if(document.mozCancelFullScreen) {
+					document.mozCancelFullScreen();
+				} else if(document.webkitExitFullscreen) {
+					document.webkitExitFullscreen();
+				}
+			}
+
+
+</script>
+
+
+</html>
+
+
+
