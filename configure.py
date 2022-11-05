@@ -114,19 +114,12 @@ stats_table = create_and_get_table(connection, settings.STATS_TABLE)
 print("Stats Table created " + settings.STATS_TABLE)
 
 print("Creating data entries for Stats table")
-document ={"_id": "main",
-                "flight_data":{
-                                "battery":50,
-                                "fly_speed":5.0
-                               },
-                "log_data":"unset",
-                "count":0,
-                "connection_status":"disconnected",
-                "position": {
-                               "zone":"home_base", 
-                               "status":"landed",                                   "offset":0.0
-                            }
-                }
+document = {"_id":1,
+              "faces":0,
+              "smiles":0,
+              "goals":0,
+              "participants": 0
+             }
 
 new_document = connection.new_document(dictionary=document)
 stats_table.insert_or_replace(new_document)
@@ -137,10 +130,10 @@ print("CONTROLS_TABLE table created " + settings.ROBOT_TABLE )
 
 try:
   # Create home_base if doesn't exist
-    document = {"_id":"1",
-              "x":"0",
-              "y":"0",
-              "z":"0"
+    document = {"_id":1,
+              "x":0,
+              "y":0,
+              "z":0
              }
     new_document = connection.new_document(dictionary=document)
     controls_table.insert_or_replace(new_document)

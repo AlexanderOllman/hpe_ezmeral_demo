@@ -41,7 +41,6 @@ if [ "$DISTRIBUTION" == "Ubuntu" ]; then
 		
 		pip3 install --upgrade pip
 		pip3 install protobuf==3.20.*
-		pip install 'protobuf <=3.20.1' --force-reinstall
 		pip3 install maprdb-python-client
 		pip3 install --global-option=build_ext --global-option="--library-dirs=/opt/mapr/lib" --global-option="--include-dirs=/opt/mapr/include/" mapr-streams-python
 		pip3 install numpy
@@ -51,7 +50,6 @@ if [ "$DISTRIBUTION" == "Ubuntu" ]; then
 		pip3 install Pillow
 		pip3 install tellopy 
 		pip3 install av
-		pip3 install cv2
 		pip3 install robomasterpy
 		pip3 install multiprocessing
 		pip3 install subprocess
@@ -59,6 +57,7 @@ if [ "$DISTRIBUTION" == "Ubuntu" ]; then
 		pip3 install deface
 		pip3 install confluent_kafka
 		pip3 install webbrowser
+        pip install 'protobuf <=3.20.1' --force-reinstall
 
 		
 

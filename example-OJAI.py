@@ -55,14 +55,14 @@ from mapr.ojai.storage.ConnectionFactory import ConnectionFactory
 # Initialize databases conection
 # create connection string
 if SECURE_MODE:
-  connection_str = "{}:5678?auth=basic;" \
+    connection_str = "{}:5678?auth=basic;" \
                            "user={};" \
                            "password={};" \
                            "ssl=true;" \
                            "sslCA={};" \
                            "sslTargetNameOverride={}".format(MY_CLUSTER_API_ADDRESS,USERNAME,PASSWORD,PEM_FILE,MY_CLUSTER_API_ADDRESS)
 else:
-  connection_str = "{}:5678?auth=basic;user={};password={};ssl=false".format(MY_CLUSTER_API_ADDRESS,USERNAME,PASSWORD)
+    connection_str = "{}:5678?auth=basic;user={};password={};ssl=false".format(MY_CLUSTER_API_ADDRESS,USERNAME,PASSWORD)
 
 # establish connection
 df_db_connection = ConnectionFactory().get_connection(connection_str=connection_str)

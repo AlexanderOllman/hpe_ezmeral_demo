@@ -31,6 +31,14 @@ ROBOT_STREAM = settings.ROBOT_STREAM
 ROBOT_VIDEO_STREAM = settings.ROBOT_VIDEO_STREAM
 ROBOT_IP = settings.ROBOT_IP
 
+SECURE_MODE = settings.SECURE_MODE
+username = settings.USERNAME
+password = settings.PASSWORD
+PEM_FILE = settings.PEM_FILE
+STATS_TABLE = settings.STATS_TABLE
+ROBOT_TABLE = settings.ROBOT_TABLE
+
+
 
 logging.basicConfig(format='%(asctime)s %(message)s',
                     datefmt='%Y-%m-%d %H:%M:%S',
@@ -41,6 +49,18 @@ logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
 
+if SECURE_MODE:
+    connection_str = "{}:5678?auth=basic;" \
+                           "user={};" \
+                           "password={};" \
+                           "ssl=true;" \
+                           "sslCA={};" \
+                           "sslTargetNameOverride={}".format(CLUSTER_IP,username,password,PEM_FILE,CLUSTER_IP)
+else:
+    connection_str = "{}:5678?auth=basic;user={};password={};ssl=false".format(CLUSTER_IP,username,password)
+
+connection = ConnectionFactory().get_connection(connection_str=connection_str)
+robot_table = connection.get_or_create_store(ROBOT_TABLE)
 
 
 stream_topic = 'command'
@@ -82,9 +102,15 @@ def robotCamera(frame, i):
 
 print('Robot Control Starting...')     
 i = 1
+telemetry = []
 while True:
 #    ret, frame = robo.cap.read()
  #   robotCamera(frame,i)
+    #create a count for every 10 seconds here
+    telemetry = robo.returnPosition()
+    mutation = {"$set": [{"x": telemetry[0]}, {"y": telemetry[1]}, {"z": telemetry[2]}]}
+    robot_table.update(_id=1, mutation=mutation)
+    
     msg=c.poll(0.1) #timeout
     if msg is None:
         continue

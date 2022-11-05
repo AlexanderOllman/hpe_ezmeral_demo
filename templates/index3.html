@@ -712,7 +712,7 @@
             <!-- small box -->
             <div class="small-box bg-olive">
               <div class="inner">
-                <h3>150</h3>
+                <h3 id="box1">150</h3>
 
                 <p>Faces Detected</p>
               </div>
@@ -728,7 +728,7 @@
             <!-- small box -->
             <div class="small-box bg-olive">
               <div class="inner">
-                <h3>97<sup style="font-size: 20px">%</sup></h3>
+                <h3 id="box2">97<sup style="font-size: 20px">%</sup></h3>
 
                 <p>Smile Detection Rate</p>
               </div>
@@ -743,7 +743,7 @@
             <!-- small box -->
             <div class="small-box bg-olive">
               <div class="inner">
-                <h3>44</h3>
+                <h3 id="box3">44</h3>
 
                 <p>Goals Scored</p>
               </div>
@@ -758,7 +758,7 @@
             <!-- small box -->
             <div class="small-box bg-olive">
               <div class="inner">
-                <h3>65</h3>
+                <h3 id="box4">65</h3>
 
                 <p>Unique Visitors</p>
               </div>
@@ -915,7 +915,8 @@ $(function() {
 
                 $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
                 function update_values() {
-                        $.getJSON($SCRIPT_ROOT + '/_stuff',
+                        
+                    $.getJSON($SCRIPT_ROOT + '/_smileImages',
 
                     function(data) {
                         var line = document.getElementById("images");
@@ -934,18 +935,38 @@ $(function() {
                         
                     });
 
-                                        $.getJSON($SCRIPT_ROOT + '/_stuff2',
+                    $.getJSON($SCRIPT_ROOT + '/_robotImages',
 
-                    function(data) {
+                    function(data2) {
                         var line2 = document.getElementById("images2");
                         line2.innerHTML = "";
-                        var numArray2 = data.c;
-                        var dataPath2 = data.path;
+                        var numArray2 = data2.c;
+                        var dataPath2 = data2.path;
                         for (j = 1, n = numArray2.length; j < n; j++) {
                             image2 = dataPath2 + "frame_" + numArray2[j] + ".jpg"
                             line2.innerHTML += "<img class='img-fluid ui-widget-content' src='"+image2+"'/>"
                         }
                     });
+                    
+                    $.getJSON($SCRIPT_ROOT + '/_stats',
+
+                    function(data3) {
+                        var statArray = data3.statArray;
+                        var telemetryArray = data3.telemetry;
+                        
+                        var box1 = document.getElementById("box1");
+                        var box2 = document.getElementById("box2");
+                        var box3 = document.getElementById("box3");
+                        var box4 = document.getElementById("box4");
+                        
+                        box1.innerText = statArray[0];
+                        box2.innerText = statArray[1];
+                        box3.innerText = statArray[2];
+                        box4.innerText = statArray[3];
+                        
+                    });
+                    
+                    
                     };
 
 

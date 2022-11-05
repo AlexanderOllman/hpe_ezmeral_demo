@@ -34,22 +34,12 @@ STATIC_FOLDER = settings.STATIC_FOLDER
 ROBOT_STREAM = settings.ROBOT_STREAM
 CAMERA_FEED = settings.CAMERA_FEED
 
-
-#DRONEDATA_TABLE = settings.DRONEDATA_TABLE
-#ZONES_TABLE = settings.ZONES_TABLE
-#CONTROLS_TABLE = settings.CONTROLS_TABLE
-
-#VIDEO_STREAM = settings.VIDEO_STREAM
-#POSITIONS_STREAM = settings.POSITIONS_STREAM
-#RECORDING_STREAM = settings.RECORDING_STREAM
-#OFFSET_RESET_MODE = settings.OFFSET_RESET_MODE
-#DISPLAY_STREAM_NAME = settings.DISPLAY_STREAM_NAME
-
-#SECURE_MODE = settings.SECURE_MODE
-#username = settings.USERNAME
-#password = settings.PASSWORD
-#PEM_FILE = settings.PEM_FILE
-#DRONE_MODE = settings.DRONE_MODE
+SECURE_MODE = settings.SECURE_MODE
+username = settings.USERNAME
+password = settings.PASSWORD
+PEM_FILE = settings.PEM_FILE
+STATS_TABLE = settings.STATS_TABLE
+ROBOT_TABLE = settings.ROBOT_TABLE
 
 robotProcess = []
 
@@ -63,6 +53,19 @@ logging.basicConfig(format='%(asctime)s %(message)s',
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
+
+if SECURE_MODE:
+    connection_str = "{}:5678?auth=basic;" \
+                           "user={};" \
+                           "password={};" \
+                           "ssl=true;" \
+                           "sslCA={};" \
+                           "sslTargetNameOverride={}".format(CLUSTER_IP,username,password,PEM_FILE,CLUSTER_IP)
+else:
+    connection_str = "{}:5678?auth=basic;user={};password={};ssl=false".format(CLUSTER_IP,username,password)
+
+connection = ConnectionFactory().get_connection(connection_str=connection_str)
+stats_table = connection.get_or_create_store(STATS_TABLE)
 
 def overlap(box, face):
     a = [box.xmin, box.ymin]
@@ -123,6 +126,10 @@ def detectFaces(result_queue, queue_from_faces):
             x, y, w, h = faces[max_index]
             cv2.rectangle(frame, (x, y), (x + w, y + h), (130, 169, 1), 4)
             face = Rectangle(x, y, w, h)
+            
+            #update the stats table
+            mutation = {"$increment":{"faces":1}}
+            stats_table.update(_id=1, mutation=mutation)
         else:
             face = ()
         arr = [frame, face]
@@ -232,6 +239,10 @@ def detectSmiles(queue_from_faces):
                     video_producer.poll(1)
                     video_producer.produce(topic, m.encode('utf-8'), callback=receipt)
                     video_producer.flush()
+                    
+                    #update the stats table
+                    mutation = {"$increment":{"smiles":1}}
+                    stats_table.update(_id=1, mutation=mutation)
 
 def drawRectangle(frame, rect, colour):
     shapes = np.zeros_like(frame, np.uint8)
