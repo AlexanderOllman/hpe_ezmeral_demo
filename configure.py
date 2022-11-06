@@ -55,6 +55,12 @@ def create_stream(stream_path):
     if not os.path.islink(stream_path):
         print("creating stream: "+'maprcli stream create -path ' + stream_path + ' -produceperm p -consumeperm p -topicperm p -copyperm p -adminperm p')
         os.system('maprcli stream create -path ' + stream_path + ' -produceperm p -consumeperm p -topicperm p -copyperm p -adminperm p')
+        
+def create_topic(stream_path, topic_name):
+    if not os.path.islink(stream_path):
+        print("Stream does not exist!")
+    else:
+        os.system('maprcli stream topic create -path ' + stream_path + '-topic '+topic_name)
 
 def create_and_get_table(connection, table_path):
     if connection.is_store_exists(table_path):
@@ -65,14 +71,17 @@ def create_and_get_table(connection, table_path):
 
 os.system("rm -rf " + settings.ROBOT_VIDEO_STREAM)
 create_stream(settings.ROBOT_VIDEO_STREAM)
+create_topic(settings.ROBOT_VIDEO_STREAM, 'video_feed')
 print("Robot Video Stream created " + settings.ROBOT_VIDEO_STREAM)
 
 os.system("rm -rf " + settings.ROBOT_STREAM)
 create_stream(settings.ROBOT_STREAM)
+create_topic(settings.ROBOT_STREAM, 'command')
 print("Robot Control Stream created" + settings.ROBOT_STREAM)
 
 os.system("rm -rf " + settings.VIDEO_STREAM)
 create_stream(settings.VIDEO_STREAM)
+create_topic(settings.ROBOT_VIDEO_STREAM, 'user_stream')
 print("Video Stream created " + settings.VIDEO_STREAM)
 
 
